@@ -36,6 +36,8 @@
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"spr_placeholder","path":"sprites/spr_placeholder/spr_placeholder.yy",},},
+    {"id":{"name":"spr_tempbackground","path":"sprites/spr_tempbackground/spr_tempbackground.yy",},},
+    {"id":{"name":"spr_temppath","path":"sprites/spr_temppath/spr_temppath.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
