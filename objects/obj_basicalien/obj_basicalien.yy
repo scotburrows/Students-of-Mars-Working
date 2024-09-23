@@ -1,11 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_testcreature",
+  "%Name":"obj_basicalien",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_guntower_bullet","path":"objects/obj_guntower_bullet/obj_guntower_bullet.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_testcreature",
+  "name":"obj_basicalien",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
