@@ -19,6 +19,7 @@
   "ResourceOrderSettings":[
     {"name":"obj_guntower_bullet","order":2,"path":"objects/obj_guntower_bullet/obj_guntower_bullet.yy",},
     {"name":"obj_guntower","order":1,"path":"objects/obj_guntower/obj_guntower.yy",},
+    {"name":"obj_playerclick","order":3,"path":"objects/obj_playerclick/obj_playerclick.yy",},
     {"name":"spr_tempbackground","order":1,"path":"sprites/spr_tempbackground/spr_tempbackground.yy",},
     {"name":"spr_tempbullet","order":4,"path":"sprites/spr_tempbullet/spr_tempbullet.yy",},
     {"name":"spr_tempguntower","order":3,"path":"sprites/spr_tempguntower/spr_tempguntower.yy",},

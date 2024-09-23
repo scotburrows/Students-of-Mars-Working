@@ -37,6 +37,7 @@
     {"id":{"name":"obj_basicalien","path":"objects/obj_basicalien/obj_basicalien.yy",},},
     {"id":{"name":"obj_guntower_bullet","path":"objects/obj_guntower_bullet/obj_guntower_bullet.yy",},},
     {"id":{"name":"obj_guntower","path":"objects/obj_guntower/obj_guntower.yy",},},
+    {"id":{"name":"obj_playerclick","path":"objects/obj_playerclick/obj_playerclick.yy",},},
     {"id":{"name":"path_enemy","path":"paths/path_enemy/path_enemy.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"spr_tempalien","path":"sprites/spr_tempalien/spr_tempalien.yy",},},
