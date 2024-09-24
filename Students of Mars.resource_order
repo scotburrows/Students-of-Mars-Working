@@ -17,6 +17,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"obj_cash","order":5,"path":"objects/obj_cash/obj_cash.yy",},
     {"name":"obj_guntower_bullet","order":2,"path":"objects/obj_guntower_bullet/obj_guntower_bullet.yy",},
     {"name":"obj_guntower","order":1,"path":"objects/obj_guntower/obj_guntower.yy",},
     {"name":"obj_playerclick","order":3,"path":"objects/obj_playerclick/obj_playerclick.yy",},
