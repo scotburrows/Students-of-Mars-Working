@@ -32,8 +32,8 @@
     {"$GMObjectProperty":"v1","%Name":"enemy_path","filters":[
         "GMPath",
       ],"listItems":[],"multiselect":false,"name":"enemy_path","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"path_enemy","path":"paths/path_enemy/path_enemy.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"path_enemy","varType":5,},
-    {"$GMObjectProperty":"v1","%Name":"enemy_health","filters":[],"listItems":[],"multiselect":false,"name":"enemy_health","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"25","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"money_get","filters":[],"listItems":[],"multiselect":false,"name":"money_get","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"enemy_health","filters":[],"listItems":[],"multiselect":false,"name":"enemy_health","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"15","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"money_get","filters":[],"listItems":[],"multiselect":false,"name":"money_get","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"20","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
