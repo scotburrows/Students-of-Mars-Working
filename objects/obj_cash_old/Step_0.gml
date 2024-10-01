@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-global.money += 1
-alarm_set(0,60)
+/*if(true){
+	draw_text(21,513,"Money: "+string(global.money))
+}*/
