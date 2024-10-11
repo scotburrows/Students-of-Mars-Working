@@ -27,6 +27,7 @@
     {"name":"obj_button_guntower","order":1,"path":"objects/obj_button_guntower/obj_button_guntower.yy",},
     {"name":"obj_button_map1","order":3,"path":"objects/obj_button_map1/obj_button_map1.yy",},
     {"name":"obj_button_title","order":2,"path":"objects/obj_button_title/obj_button_title.yy",},
+    {"name":"obj_cheats","order":8,"path":"objects/obj_cheats/obj_cheats.yy",},
     {"name":"obj_flamethrower_bullet","order":1,"path":"objects/obj_flamethrower_bullet/obj_flamethrower_bullet.yy",},
     {"name":"obj_flamethrower","order":2,"path":"objects/obj_flamethrower/obj_flamethrower.yy",},
     {"name":"obj_invalid_place","order":3,"path":"objects/obj_invalid_place/obj_invalid_place.yy",},

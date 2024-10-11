@@ -35,6 +35,7 @@
     {"name":"inst_661B4C9D","path":"rooms/rm_orange_desert/rm_orange_desert.yy",},
     {"name":"inst_32CB5A34","path":"rooms/rm_orange_desert/rm_orange_desert.yy",},
     {"name":"inst_5291057F","path":"rooms/rm_orange_desert/rm_orange_desert.yy",},
+    {"name":"inst_125741BE","path":"rooms/rm_orange_desert/rm_orange_desert.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -73,6 +74,7 @@
         {"$GMRInstance":"v1","%Name":"inst_1EE1672A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1EE1672A","objectId":{"name":"obj_invalid_place","path":"objects/obj_invalid_place/obj_invalid_place.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":1.0,"x":128.0,"y":320.0,},
         {"$GMRInstance":"v1","%Name":"inst_700BB915","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_700BB915","objectId":{"name":"obj_button_guntower","path":"objects/obj_button_guntower/obj_button_guntower.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":704.0,},
         {"$GMRInstance":"v1","%Name":"inst_3566C950","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3566C950","objectId":{"name":"obj_invalid_place","path":"objects/obj_invalid_place/obj_invalid_place.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":22.0,"scaleY":2.0,"x":0.0,"y":768.0,},
+        {"$GMRInstance":"v1","%Name":"inst_125741BE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_125741BE","objectId":{"name":"obj_cheats","path":"objects/obj_cheats/obj_cheats.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRPathLayer":"","%Name":"Path_1","colour":4278190335,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Path_1","pathId":{"name":"path_enemy","path":"paths/path_enemy/path_enemy.yy",},"properties":[],"resourceType":"GMRPathLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[

@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description REMOVE when given sprite
 // You can write your code in this editor
 image_xscale = 2;
 image_yscale = 2;

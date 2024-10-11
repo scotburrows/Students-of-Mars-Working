@@ -46,6 +46,7 @@
     {"id":{"name":"obj_button_map1","path":"objects/obj_button_map1/obj_button_map1.yy",},},
     {"id":{"name":"obj_button_startround","path":"objects/obj_button_startround/obj_button_startround.yy",},},
     {"id":{"name":"obj_button_title","path":"objects/obj_button_title/obj_button_title.yy",},},
+    {"id":{"name":"obj_cheats","path":"objects/obj_cheats/obj_cheats.yy",},},
     {"id":{"name":"obj_flamethrower_bullet","path":"objects/obj_flamethrower_bullet/obj_flamethrower_bullet.yy",},},
     {"id":{"name":"obj_flamethrower","path":"objects/obj_flamethrower/obj_flamethrower.yy",},},
     {"id":{"name":"obj_guntower_bullet","path":"objects/obj_guntower_bullet/obj_guntower_bullet.yy",},},
