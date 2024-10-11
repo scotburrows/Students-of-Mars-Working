@@ -2,7 +2,7 @@
 // You can write your code in this editor
 if (global.clickable and !clicked) {
 	clicked = true;
-	obj_bar.display_data = id;
+	obj_bar.display_data = object_index;
 }
 else if (global.clickable and clicked) {
 	clicked = false;

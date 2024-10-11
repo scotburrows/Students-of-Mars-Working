@@ -1,9 +1,9 @@
 /// @description Shows details
 // You can write your code in this editor
-if(true){
+if(!obj_bar.does_display_data){
 	draw_set_alpha(1);
 	draw_set_color(c_white);
-	draw_text(21,513,"Money: "+string(global.money))
-	draw_text(21, 480, "Round: " + string(global.round))
-	draw_healthbar(21, 560, 121, 580, health * 12.5, c_black, c_red, c_lime, 0, true, true);
+	draw_text(64, 825,"Money: "+string(global.money))
+	draw_text(64, 840, "Round: " + string(global.round_num))
+	draw_healthbar(64, 800, 164, 820, health * 12.5, c_black, c_red, c_lime, 0, true, true);
 }
