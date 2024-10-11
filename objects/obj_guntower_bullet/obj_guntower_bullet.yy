@@ -9,8 +9,8 @@
   "name":"obj_guntower_bullet",
   "overriddenProperties":[],
   "parent":{
-    "name":"Bullets",
-    "path":"folders/Objects/Towers/Bullets.yy",
+    "name":"bullet",
+    "path":"folders/Objects/tower/bullet.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -8,8 +8,8 @@
   "name":"obj_flamethrower_bullet",
   "overriddenProperties":[],
   "parent":{
-    "name":"Bullets",
-    "path":"folders/Objects/Towers/Bullets.yy",
+    "name":"bullet",
+    "path":"folders/Objects/tower/bullet.yy",
   },
   "parentObjectId":{
     "name":"obj_guntower_bullet",

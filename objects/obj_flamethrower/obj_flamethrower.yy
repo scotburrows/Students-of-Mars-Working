@@ -6,8 +6,8 @@
   "name":"obj_flamethrower",
   "overriddenProperties":[],
   "parent":{
-    "name":"Towers",
-    "path":"folders/Objects/Towers.yy",
+    "name":"tower",
+    "path":"folders/Objects/tower.yy",
   },
   "parentObjectId":{
     "name":"obj_guntower",

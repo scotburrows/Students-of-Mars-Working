@@ -11,8 +11,8 @@
   "name":"obj_guntower",
   "overriddenProperties":[],
   "parent":{
-    "name":"Towers",
-    "path":"folders/Objects/Towers.yy",
+    "name":"tower",
+    "path":"folders/Objects/tower.yy",
   },
   "parentObjectId":null,
   "persistent":false,
