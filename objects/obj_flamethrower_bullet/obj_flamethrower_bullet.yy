@@ -1,18 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_guntower_bullet",
+  "%Name":"obj_flamethrower_bullet",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_guntower_bullet",
+  "name":"obj_flamethrower_bullet",
   "overriddenProperties":[],
   "parent":{
     "name":"Bullets",
     "path":"folders/Objects/Towers/Bullets.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_guntower_bullet",
+    "path":"objects/obj_guntower_bullet/obj_guntower_bullet.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tempbullet",
-    "path":"sprites/spr_tempbullet/spr_tempbullet.yy",
+    "name":"spr_invalid",
+    "path":"sprites/spr_invalid/spr_invalid.yy",
   },
   "spriteMaskId":null,
   "visible":true,
