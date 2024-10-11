@@ -1,3 +1,4 @@
-/// @description Insert description here
+/// @description Sets alarms
 // You can write your code in this editor
-room_goto(selected_room);
+alarm_set(0, 1);
+alarm_set(1, transition_time);

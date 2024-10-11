@@ -3,6 +3,8 @@
   "%Name":"obj_button_title",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_button_title",
@@ -29,6 +31,7 @@
     {"$GMObjectProperty":"v1","%Name":"selected_room","filters":[
         "GMRoom",
       ],"listItems":[],"multiselect":false,"name":"selected_room","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"rm_stage_select","path":"rooms/rm_stage_select/rm_stage_select.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"rm_stage_select","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"transition_time","filters":[],"listItems":[],"multiselect":false,"name":"transition_time","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"room_speed","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
