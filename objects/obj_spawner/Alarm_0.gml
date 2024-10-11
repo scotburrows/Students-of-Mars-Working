@@ -5,4 +5,4 @@ aliens--;
 if (aliens <= 0) {
 	instance_destroy();
 }
-alarm_set(0, 90);
+//alarm_set(0, 90);

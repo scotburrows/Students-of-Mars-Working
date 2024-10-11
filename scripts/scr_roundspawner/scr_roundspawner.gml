@@ -6,7 +6,7 @@ function scr_roundspawner(wave_info){
 		var current_wave = wave_info[i] // The wave of enemies about to spawn.
 		for (var j = 0; j < current_wave[1]; j++)
 		{
-			alarm_set(0, current_wave[2] * room.speed)
+			instance_nearest(0, 0, obj_spawner).alarm[0] = current_wave[2] * room_speed;
 			while (alarm_get(0) != 0)
 			{
 				
