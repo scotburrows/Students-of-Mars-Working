@@ -1,5 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+
+// An array of waves, each containing: alien type, amount, and time between spawns
 function scr_roundhandler(){
 	switch (global.round_num)
 	{
