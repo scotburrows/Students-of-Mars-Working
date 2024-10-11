@@ -8,11 +8,11 @@ function scr_roundhandler(){
 		break;
 		
 		case 2:
-		global.roundspawn = [[obj_alien_fast, 4, 120]]
+		global.roundspawn = [[obj_alien_fast, 4, 120], [obj_alien_basic, 2, 30]]
 		break;
 		
 		case 3:
-		global.roundspawn = [[obj_alien_tank, 1, 30]]
+		global.roundspawn = [[obj_alien_tank, 1, 30], [obj_alien_fast, 3, 60]]
 		break;
 	}
 	

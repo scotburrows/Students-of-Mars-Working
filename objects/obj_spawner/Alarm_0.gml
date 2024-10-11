@@ -1,11 +1,16 @@
 /// @description Spawns enemy every 1.5s
 // You can write your code in this editor
-instance_create_layer(1312, 832, "Instances", current_wave[0]);
-current_wave[1]--;
-alarm_set(0, current_wave[2]);
+instance_create_layer(1312, 832, "Instances", global.roundspawn[wavenum][0]);
+global.roundspawn[wavenum][1]--;
+alarm_set(0, global.roundspawn[wavenum][2]);
 
-if (current_wave[1] == 0) {
-	instance_destroy();
+if (global.roundspawn[wavenum][1] == 0) {
+	if (wavenum == array_length(global.roundspawn) - 1) {
+		instance_destroy();
+	}
+	else {
+		wavenum++;
+	}
 }
 //instance_create_layer(1312, 832, "Instances", obj_alien_basic);
 //instance_create_layer(1312, 832, "Instances", global.round[0][0]);
