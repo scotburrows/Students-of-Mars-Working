@@ -2,9 +2,11 @@
 // You can write your code in this editor
 if (does_display_data and display_data != noone) {
 	instance_destroy(obj_button_guntower);
-	instance_destroy(obj_button_startround);
+	instance_destroy(obj_button_sniper);
+	//instance_destroy(obj_button_startround);
 }
 else {
 	instance_create_layer(200, 800, "Bar", obj_button_guntower);
+	instance_create_layer(350, 800, "Bar", obj_button_sniper);
 	instance_create_layer(1216, 800, "Bar", obj_button_startround);
 }

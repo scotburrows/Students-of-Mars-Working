@@ -6,5 +6,5 @@ if (instance_exists(target)) {
 //if (direction > base_direction + 20 or direction < base_direction - 20) {
 //	instance_destroy();
 //}
-direction = clamp(direction, base_direction - 10, base_direction + 10);
+direction = clamp(direction, base_direction - adjust_angle, base_direction + adjust_angle);
 image_angle = direction;

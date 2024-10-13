@@ -33,6 +33,8 @@
     {"$GMObjectProperty":"v1","%Name":"tower","filters":[
         "GMObject",
       ],"listItems":[],"multiselect":false,"name":"tower","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_guntower","path":"objects/obj_guntower/obj_guntower.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_guntower","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"circle_radius","filters":[],"listItems":[],"multiselect":false,"name":"circle_radius","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"150","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"cost","filters":[],"listItems":[],"multiselect":false,"name":"cost","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"50","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
