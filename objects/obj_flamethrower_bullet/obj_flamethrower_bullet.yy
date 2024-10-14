@@ -3,10 +3,16 @@
   "%Name":"obj_flamethrower_bullet",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_flamethrower_bullet",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_guntower_bullet","path":"objects/obj_guntower_bullet/obj_guntower_bullet.yy",},"propertyId":{"name":"damage","path":"objects/obj_guntower_bullet/obj_guntower_bullet.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":".1",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_guntower_bullet","path":"objects/obj_guntower_bullet/obj_guntower_bullet.yy",},"propertyId":{"name":"bullet_speed","path":"objects/obj_guntower_bullet/obj_guntower_bullet.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_guntower_bullet","path":"objects/obj_guntower_bullet/obj_guntower_bullet.yy",},"propertyId":{"name":"random_offset","path":"objects/obj_guntower_bullet/obj_guntower_bullet.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_guntower_bullet","path":"objects/obj_guntower_bullet/obj_guntower_bullet.yy",},"propertyId":{"name":"adjust_angle","path":"objects/obj_guntower_bullet/obj_guntower_bullet.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
+  ],
   "parent":{
     "name":"bullet",
     "path":"folders/Objects/tower/bullet.yy",
@@ -33,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_invalid",
-    "path":"sprites/spr_invalid/spr_invalid.yy",
+    "name":"spr_fire",
+    "path":"sprites/spr_fire/spr_fire.yy",
   },
   "spriteMaskId":null,
   "visible":true,

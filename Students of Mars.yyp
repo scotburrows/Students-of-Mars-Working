@@ -35,7 +35,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"Students of Mars",
   "resources":[
@@ -70,6 +70,7 @@
     {"id":{"name":"spr_blank_path2","path":"sprites/spr_blank_path2/spr_blank_path2.yy",},},
     {"id":{"name":"spr_building","path":"sprites/spr_building/spr_building.yy",},},
     {"id":{"name":"spr_crystal","path":"sprites/spr_crystal/spr_crystal.yy",},},
+    {"id":{"name":"spr_fire","path":"sprites/spr_fire/spr_fire.yy",},},
     {"id":{"name":"spr_hpath","path":"sprites/spr_hpath/spr_hpath.yy",},},
     {"id":{"name":"spr_invalid","path":"sprites/spr_invalid/spr_invalid.yy",},},
     {"id":{"name":"spr_lamp","path":"sprites/spr_lamp/spr_lamp.yy",},},

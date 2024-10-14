@@ -45,6 +45,7 @@
     {"name":"spr_blank_path2","order":20,"path":"sprites/spr_blank_path2/spr_blank_path2.yy",},
     {"name":"spr_building","order":32,"path":"sprites/spr_building/spr_building.yy",},
     {"name":"spr_crystal","order":23,"path":"sprites/spr_crystal/spr_crystal.yy",},
+    {"name":"spr_fire","order":42,"path":"sprites/spr_fire/spr_fire.yy",},
     {"name":"spr_hpath","order":8,"path":"sprites/spr_hpath/spr_hpath.yy",},
     {"name":"spr_invalid","order":36,"path":"sprites/spr_invalid/spr_invalid.yy",},
     {"name":"spr_lamp","order":30,"path":"sprites/spr_lamp/spr_lamp.yy",},
