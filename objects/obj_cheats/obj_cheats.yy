@@ -14,8 +14,8 @@
   "name":"obj_cheats",
   "overriddenProperties":[],
   "parent":{
-    "name":"button",
-    "path":"folders/Objects/button.yy",
+    "name":"ui",
+    "path":"folders/Objects/ui.yy",
   },
   "parentObjectId":null,
   "persistent":true,

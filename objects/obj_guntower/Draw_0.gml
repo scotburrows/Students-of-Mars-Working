@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description Circle range
 // You can write your code in this editor
 if (clicked) {
 	draw_set_alpha(0.25);

@@ -1,6 +1,6 @@
 /// @description Place guntower on valid space
 // You can write your code in this editor
-if (mouse_y > 768) { 
+if (mouse_x > 1472) { 
 	clicked = false;
 	global.clickable = true;
 }

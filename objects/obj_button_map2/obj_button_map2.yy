@@ -11,7 +11,7 @@
   ],
   "parent":{
     "name":"button",
-    "path":"folders/Objects/button.yy",
+    "path":"folders/Objects/ui/button.yy",
   },
   "parentObjectId":{
     "name":"obj_button_map1",

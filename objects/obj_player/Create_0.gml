@@ -6,3 +6,4 @@ health = 100;
 alarm_set(0,60);
 global.round_num = 0;
 tension_alpha = 0;
+scr_switchbar(false, noone);

@@ -3,3 +3,4 @@
 event_inherited();
 alpha = 1;
 clicked = false;
+hovering = false;
