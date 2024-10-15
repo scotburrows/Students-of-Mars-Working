@@ -21,6 +21,14 @@ function scr_roundhandler(){
 		global.current_round = [[obj_alien_tank, 2, 30]]
 		break;
 		
+		case 6:
+		global.current_round = [[obj_alien_shell, 5, 120]]
+		break;
+		
+		case 9:
+		global.current_round = [[obj_alien_tank, 10, 30]]
+		break;
+		
 		case 10:
 		//global.current_round = [[obj_alien_king, 1, 10], [obj_alien_basic, 5, 45], [obj_alien_fast, 5, 45], [obj_alien_tank, 5, 45]]
 		global.current_round = [[obj_alien_king, 1, 10], [noone, 1, 600], [obj_alien_basic, 5, 45], [noone, 1, 600], [obj_alien_fast, 5, 45], [noone, 1, 600], [obj_alien_tank, 5, 45]]
