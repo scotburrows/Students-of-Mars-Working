@@ -24,6 +24,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_alien_fast","order":1,"path":"objects/obj_alien_fast/obj_alien_fast.yy",},
+    {"name":"obj_alien_king","order":4,"path":"objects/obj_alien_king/obj_alien_king.yy",},
     {"name":"obj_alien_tank","order":2,"path":"objects/obj_alien_tank/obj_alien_tank.yy",},
     {"name":"obj_button_flamethrower","order":9,"path":"objects/obj_button_flamethrower/obj_button_flamethrower.yy",},
     {"name":"obj_button_guntower","order":1,"path":"objects/obj_button_guntower/obj_button_guntower.yy",},
@@ -84,6 +85,7 @@
     {"name":"spr_sw_path","order":7,"path":"sprites/spr_sw_path/spr_sw_path.yy",},
     {"name":"spr_tempalien2","order":1,"path":"sprites/spr_tempalien2/spr_tempalien2.yy",},
     {"name":"spr_tempalien3","order":2,"path":"sprites/spr_tempalien3/spr_tempalien3.yy",},
+    {"name":"spr_tempalienking","order":25,"path":"sprites/spr_tempalienking/spr_tempalienking.yy",},
     {"name":"spr_tempbackground","order":3,"path":"sprites/spr_tempbackground/spr_tempbackground.yy",},
     {"name":"spr_tempbar","order":4,"path":"sprites/spr_tempbar/spr_tempbar.yy",},
     {"name":"spr_tempbar2","order":21,"path":"sprites/spr_tempbar2/spr_tempbar2.yy",},

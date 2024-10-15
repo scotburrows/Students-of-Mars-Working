@@ -37,12 +37,13 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.0.169",
+    "IDEVersion":"2024.6.2.162",
   },
   "name":"Students of Mars",
   "resources":[
     {"id":{"name":"obj_alien_basic","path":"objects/obj_alien_basic/obj_alien_basic.yy",},},
     {"id":{"name":"obj_alien_fast","path":"objects/obj_alien_fast/obj_alien_fast.yy",},},
+    {"id":{"name":"obj_alien_king","path":"objects/obj_alien_king/obj_alien_king.yy",},},
     {"id":{"name":"obj_alien_tank","path":"objects/obj_alien_tank/obj_alien_tank.yy",},},
     {"id":{"name":"obj_button_flamethrower","path":"objects/obj_button_flamethrower/obj_button_flamethrower.yy",},},
     {"id":{"name":"obj_button_guntower","path":"objects/obj_button_guntower/obj_button_guntower.yy",},},
@@ -111,6 +112,7 @@
     {"id":{"name":"spr_tempalien","path":"sprites/spr_tempalien/spr_tempalien.yy",},},
     {"id":{"name":"spr_tempalien2","path":"sprites/spr_tempalien2/spr_tempalien2.yy",},},
     {"id":{"name":"spr_tempalien3","path":"sprites/spr_tempalien3/spr_tempalien3.yy",},},
+    {"id":{"name":"spr_tempalienking","path":"sprites/spr_tempalienking/spr_tempalienking.yy",},},
     {"id":{"name":"spr_tempbackground","path":"sprites/spr_tempbackground/spr_tempbackground.yy",},},
     {"id":{"name":"spr_tempbar","path":"sprites/spr_tempbar/spr_tempbar.yy",},},
     {"id":{"name":"spr_tempbar2","path":"sprites/spr_tempbar2/spr_tempbar2.yy",},},
