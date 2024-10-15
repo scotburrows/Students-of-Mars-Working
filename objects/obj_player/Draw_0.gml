@@ -1,6 +1,6 @@
 /// @description Shows details
 // You can write your code in this editor
-if(!obj_bar.does_display_data){
+if(true){
 	draw_set_alpha(1);
 	draw_set_color(c_white);
 	draw_text(64, 825,"Money: "+string(global.money))

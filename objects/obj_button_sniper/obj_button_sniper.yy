@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
   "%Name":"obj_button_sniper",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_button_sniper",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_guntower","path":"objects/obj_button_guntower/obj_button_guntower.yy",},"propertyId":{"name":"tower","path":"objects/obj_button_guntower/obj_button_guntower.yy",},"resource":{"name":"obj_sniper","path":"objects/obj_sniper/obj_sniper.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_sniper",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_guntower","path":"objects/obj_button_guntower/obj_button_guntower.yy",},"propertyId":{"name":"circle_radius","path":"objects/obj_button_guntower/obj_button_guntower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"37",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_guntower","path":"objects/obj_button_guntower/obj_button_guntower.yy",},"propertyId":{"name":"cost","path":"objects/obj_button_guntower/obj_button_guntower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"300",},
   ],
   "parent":{
     "name":"button",

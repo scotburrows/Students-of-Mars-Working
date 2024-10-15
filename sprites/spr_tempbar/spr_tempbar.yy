@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"placeholder",
-    "path":"folders/Sprites/placeholder.yy",
+    "name":"scot-placeholders",
+    "path":"folders/Sprites/scot-placeholders.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

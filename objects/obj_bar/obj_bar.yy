@@ -9,8 +9,8 @@
   "name":"obj_bar",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"button",
+    "path":"folders/Objects/button.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,6 +31,9 @@
         "GMObject",
       ],"listItems":[],"multiselect":false,"name":"display_data","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"does_display_data","filters":[],"listItems":[],"multiselect":false,"name":"does_display_data","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"instance","filters":[
+        "GMObject",
+      ],"listItems":[],"multiselect":false,"name":"instance","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

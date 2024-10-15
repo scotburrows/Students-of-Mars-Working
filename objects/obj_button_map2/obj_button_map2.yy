@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tempbutton",
-    "path":"sprites/spr_tempbutton/spr_tempbutton.yy",
+    "name":"spr_tempthumb2",
+    "path":"sprites/spr_tempthumb2/spr_tempthumb2.yy",
   },
   "spriteMaskId":null,
   "visible":true,
