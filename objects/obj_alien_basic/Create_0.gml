@@ -4,6 +4,7 @@ if (room = rm_orange_desert) {
 	enemy_path = path_orange_desert;
 }
 else if (room = rm_frozen_lakes) {
+	enemy_speed *= 0.85;
 	if (global.path) {
 		enemy_path = path_frozen_lakes_a;
 		global.path = false;
