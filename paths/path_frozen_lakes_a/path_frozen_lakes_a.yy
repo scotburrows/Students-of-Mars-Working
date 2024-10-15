@@ -1,0 +1,22 @@
+{
+  "$GMPath":"",
+  "%Name":"path_frozen_lakes_a",
+  "closed":false,
+  "kind":0,
+  "name":"path_frozen_lakes_a",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":1472.0,"y":96.0,},
+    {"speed":100.0,"x":96.0,"y":96.0,},
+    {"speed":100.0,"x":96.0,"y":544.0,},
+    {"speed":100.0,"x":1184.0,"y":544.0,},
+    {"speed":100.0,"x":1184.0,"y":384.0,},
+    {"speed":100.0,"x":752.0,"y":384.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}
