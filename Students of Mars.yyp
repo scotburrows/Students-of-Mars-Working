@@ -37,7 +37,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"Students of Mars",
   "resources":[
@@ -53,6 +53,7 @@
     {"id":{"name":"obj_button_sniper","path":"objects/obj_button_sniper/obj_button_sniper.yy",},},
     {"id":{"name":"obj_button_startround","path":"objects/obj_button_startround/obj_button_startround.yy",},},
     {"id":{"name":"obj_button_title","path":"objects/obj_button_title/obj_button_title.yy",},},
+    {"id":{"name":"obj_button_upgrade","path":"objects/obj_button_upgrade/obj_button_upgrade.yy",},},
     {"id":{"name":"obj_cheats","path":"objects/obj_cheats/obj_cheats.yy",},},
     {"id":{"name":"obj_flamethrower_bullet","path":"objects/obj_flamethrower_bullet/obj_flamethrower_bullet.yy",},},
     {"id":{"name":"obj_flamethrower","path":"objects/obj_flamethrower/obj_flamethrower.yy",},},
@@ -79,6 +80,7 @@
     {"id":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
     {"id":{"name":"scr_roundhandler","path":"scripts/scr_roundhandler/scr_roundhandler.yy",},},
     {"id":{"name":"scr_switchbar","path":"scripts/scr_switchbar/scr_switchbar.yy",},},
+    {"id":{"name":"scr_upgradehandler","path":"scripts/scr_upgradehandler/scr_upgradehandler.yy",},},
     {"id":{"name":"spr_base","path":"sprites/spr_base/spr_base.yy",},},
     {"id":{"name":"spr_big_rock","path":"sprites/spr_big_rock/spr_big_rock.yy",},},
     {"id":{"name":"spr_blank_path1","path":"sprites/spr_blank_path1/spr_blank_path1.yy",},},
@@ -136,6 +138,7 @@
     {"id":{"name":"spr_tree_ltree","path":"sprites/spr_tree_ltree/spr_tree_ltree.yy",},},
     {"id":{"name":"spr_two_ltree","path":"sprites/spr_two_ltree/spr_two_ltree.yy",},},
     {"id":{"name":"spr_two_strees","path":"sprites/spr_two_strees/spr_two_strees.yy",},},
+    {"id":{"name":"spr_upgradebutton","path":"sprites/spr_upgradebutton/spr_upgradebutton.yy",},},
     {"id":{"name":"spr_vpath","path":"sprites/spr_vpath/spr_vpath.yy",},},
   ],
   "resourceType":"GMProject",
