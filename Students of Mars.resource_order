@@ -95,6 +95,7 @@
     {"name":"spr_tempthumb1","order":15,"path":"sprites/spr_tempthumb1/spr_tempthumb1.yy",},
     {"name":"spr_tempthumb2","order":16,"path":"sprites/spr_tempthumb2/spr_tempthumb2.yy",},
     {"name":"spr_temptrash","order":17,"path":"sprites/spr_temptrash/spr_temptrash.yy",},
+    {"name":"spr_tension","order":21,"path":"sprites/spr_tension/spr_tension.yy",},
     {"name":"spr_three_strees","order":9,"path":"sprites/spr_three_strees/spr_three_strees.yy",},
     {"name":"spr_tree_ltree","order":15,"path":"sprites/spr_tree_ltree/spr_tree_ltree.yy",},
     {"name":"spr_two_ltree","order":14,"path":"sprites/spr_two_ltree/spr_two_ltree.yy",},

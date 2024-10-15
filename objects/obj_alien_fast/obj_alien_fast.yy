@@ -8,6 +8,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_alien_basic","path":"objects/obj_alien_basic/obj_alien_basic.yy",},"propertyId":{"name":"enemy_speed","path":"objects/obj_alien_basic/obj_alien_basic.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"7",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_alien_basic","path":"objects/obj_alien_basic/obj_alien_basic.yy",},"propertyId":{"name":"enemy_health","path":"objects/obj_alien_basic/obj_alien_basic.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_alien_basic","path":"objects/obj_alien_basic/obj_alien_basic.yy",},"propertyId":{"name":"money_get","path":"objects/obj_alien_basic/obj_alien_basic.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_alien_basic","path":"objects/obj_alien_basic/obj_alien_basic.yy",},"propertyId":{"name":"damage","path":"objects/obj_alien_basic/obj_alien_basic.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"15",},
   ],
   "parent":{
     "name":"enemy",
