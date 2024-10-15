@@ -17,3 +17,4 @@ else if (room = rm_frozen_lakes) {
 
 path_start(enemy_path, enemy_speed, path_action_stop, true);
 current_hp = enemy_health;
+killed = true;

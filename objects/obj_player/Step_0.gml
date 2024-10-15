@@ -18,7 +18,7 @@ if (tension_alpha < 1) {
 		tension_alpha += 0.002;
 	}
 }
-else if (!instance_exists(obj_alien_king)) {
+if (health > 30 and !instance_exists(obj_alien_king)) {
 	tension_alpha -= 0.001;
 }
 tension_alpha = clamp(tension_alpha, 0, 1);
