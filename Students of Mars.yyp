@@ -108,6 +108,7 @@
     {"id":{"name":"spr_tempbullet","path":"sprites/spr_tempbullet/spr_tempbullet.yy",},},
     {"id":{"name":"spr_tempbush","path":"sprites/spr_tempbush/spr_tempbush.yy",},},
     {"id":{"name":"spr_tempbutton","path":"sprites/spr_tempbutton/spr_tempbutton.yy",},},
+    {"id":{"name":"spr_tempfire","path":"sprites/spr_tempfire/spr_tempfire.yy",},},
     {"id":{"name":"spr_tempfireguy","path":"sprites/spr_tempfireguy/spr_tempfireguy.yy",},},
     {"id":{"name":"spr_tempguntower","path":"sprites/spr_tempguntower/spr_tempguntower.yy",},},
     {"id":{"name":"spr_tempicypath","path":"sprites/spr_tempicypath/spr_tempicypath.yy",},},

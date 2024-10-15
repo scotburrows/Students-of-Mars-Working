@@ -35,6 +35,7 @@
         "GMObject",
       ],"listItems":[],"multiselect":false,"name":"bullet_type","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_guntower_bullet","path":"objects/obj_guntower_bullet/obj_guntower_bullet.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_guntower_bullet","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"fire_speed","filters":[],"listItems":[],"multiselect":false,"name":"fire_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"45","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"circle_radius","filters":[],"listItems":[],"multiselect":false,"name":"circle_radius","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"tower_range + 32","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -1,8 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 speed = bullet_speed;
-image_yscale = image_yscale / 4
-image_xscale = image_xscale / 5
+image_yscale = image_yscale;
+image_xscale = image_xscale;
 random_angle = random_range(-random_offset, random_offset);
 if (instance_exists(obj_alien_basic)) {
 	target = instance_nearest(x, y, obj_alien_basic);

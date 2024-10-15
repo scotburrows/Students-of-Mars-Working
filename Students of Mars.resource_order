@@ -82,6 +82,7 @@
     {"name":"spr_tempbullet","order":6,"path":"sprites/spr_tempbullet/spr_tempbullet.yy",},
     {"name":"spr_tempbush","order":12,"path":"sprites/spr_tempbush/spr_tempbush.yy",},
     {"name":"spr_tempbutton","order":8,"path":"sprites/spr_tempbutton/spr_tempbutton.yy",},
+    {"name":"spr_tempfire","order":20,"path":"sprites/spr_tempfire/spr_tempfire.yy",},
     {"name":"spr_tempfireguy","order":11,"path":"sprites/spr_tempfireguy/spr_tempfireguy.yy",},
     {"name":"spr_tempguntower","order":7,"path":"sprites/spr_tempguntower/spr_tempguntower.yy",},
     {"name":"spr_tempicypath","order":13,"path":"sprites/spr_tempicypath/spr_tempicypath.yy",},
