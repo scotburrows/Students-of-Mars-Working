@@ -3,7 +3,7 @@
 global.money = 100;
 global.clickable = true;
 health = 100;
-//alarm_set(0,60);
+alarm_set(0,60);
 global.round_num = 0;
 tension_alpha = 0;
 
@@ -14,5 +14,11 @@ scr_switchbar(false, noone);
 global.game_won = false;
 global.money_spent = 0;
 global.towers_placed = 0;
+global.enemies_defeated = 0;
+global.time_taken = 0;
+
+// move these later
+minutes = "0";
+seconds = "00";
 
 //camera_set_view_angle(view_camera[1], 20)

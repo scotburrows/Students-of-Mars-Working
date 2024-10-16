@@ -2,6 +2,7 @@
 // You can write your code in this editor
 if (killed) {
 	global.money += money_get;
+	global.enemies_defeated++;
 }
 
 // Restores health by 20 after round 5

@@ -21,8 +21,8 @@ function scr_roundhandler(){
 		global.current_round = [[noone, 1, 1]]
 		break;
 		
-		case 5: // empty
-		global.current_round = [[noone, 1, 1]]
+		case 5:
+		global.current_round = [[obj_alien_basic, 15, 35], [obj_alien_basic, 30, 20], [noone, 1, 240], [obj_alien_basic_miniboss, 1, 20]]
 		break;
 		
 		case 6:

@@ -23,6 +23,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
+    {"name":"obj_alien_basic_miniboss","order":6,"path":"objects/obj_alien_basic_miniboss/obj_alien_basic_miniboss.yy",},
     {"name":"obj_alien_fast","order":1,"path":"objects/obj_alien_fast/obj_alien_fast.yy",},
     {"name":"obj_alien_king","order":4,"path":"objects/obj_alien_king/obj_alien_king.yy",},
     {"name":"obj_alien_shell","order":5,"path":"objects/obj_alien_shell/obj_alien_shell.yy",},
