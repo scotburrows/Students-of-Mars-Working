@@ -2,7 +2,8 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_upgradehandler(tower, upgrade_type){
 	var tower_level = tower.upgrade_level
-	
+	if (tower.object_index == obj_guntower)
+	{
 		switch (tower.upgrade_level)
 		{
 			case 0:
@@ -29,6 +30,8 @@ function scr_upgradehandler(tower, upgrade_type){
 			tower.upgrade_level ++
 			break;
 		}
+	}
+		
 	
 	
 }
