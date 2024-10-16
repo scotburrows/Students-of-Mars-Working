@@ -17,12 +17,24 @@ function scr_roundhandler(){
 		global.current_round = [[obj_alien_tank, 1, 30], [obj_alien_fast, 3, 60]]
 		break;
 		
-		case 5: // test
-		global.current_round = [[obj_alien_tank, 2, 30]]
+		case 4: // empty
+		global.current_round = [[noone, 1, 1]]
+		break;
+		
+		case 5: // empty
+		global.current_round = [[noone, 1, 1]]
 		break;
 		
 		case 6:
 		global.current_round = [[obj_alien_shell, 5, 120]]
+		break;
+		
+		case 7: // empty
+		global.current_round = [[noone, 1, 1]]
+		break;
+		
+		case 8: // empty
+		global.current_round = [[noone, 1, 1]]
 		break;
 		
 		case 9:

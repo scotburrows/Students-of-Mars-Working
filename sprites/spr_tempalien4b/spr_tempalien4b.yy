@@ -23,7 +23,7 @@
   ],
   "name":"spr_tempalien4b",
   "nineSlice":null,
-  "origin":4,
+  "origin":7,
   "parent":{
     "name":"scot-placeholders",
     "path":"folders/Sprites/scot-placeholders.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":32,
-    "yorigin":32,
+    "yorigin":64,
   },
   "swatchColours":null,
   "swfPrecision":0.5,
