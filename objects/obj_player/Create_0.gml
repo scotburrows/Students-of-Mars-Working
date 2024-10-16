@@ -14,3 +14,5 @@ scr_switchbar(false, noone);
 global.game_won = false;
 global.money_spent = 0;
 global.towers_placed = 0;
+
+//camera_set_view_angle(view_camera[1], 20)
