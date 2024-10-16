@@ -27,6 +27,30 @@ if (tower.object_index == obj_guntower)
 		
 	}
 }
+else if (tower.object_index == obj_flamethrower)
+{
+	
+	switch (tower.upgrade_level)
+	{
+		case 0:
+		global.upgrade_cost = 50
+		upgrade_info = "Increases the tower's range. Cost: " + string(tower.upgrade_cost_0)
+		
+		break;
+		
+		case 1:
+		global.upgrade_cost = 75
+		upgrade_info = "Increases the tower's range. Cost: " + string(tower.upgrade_cost_1)
+		break;
+		
+		case 2:
+		instance_destroy()
+		break;
+		
+	}
+}
+
+
 draw_text(x-150, y + 80, upgrade_info)
 
 

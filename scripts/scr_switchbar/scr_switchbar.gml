@@ -8,12 +8,24 @@ function scr_switchbar(has_data, display_data){
 		if (display_data.upgrade_level == 2)
 		{
 			instance_create_layer(1632, 656, "Bar", obj_leftbranch).tower = display_data;
-			instance_create_layer(1674, 656, "Bar", obj_rightbranch).tower = display_data;
+			instance_create_layer(1700, 656, "Bar", obj_rightbranch).tower = display_data;
+		}
+		else if (display_data.upgrade_level < 2 && !instance_exists(obj_button_upgrade))
+		{
+				instance_create_layer(1640, 656, "Bar", obj_button_upgrade).tower = display_data;
 		}
 		else
 		{
-			instance_create_layer(1664, 656, "Bar", obj_button_upgrade).tower = display_data;
+			if (instance_exists(obj_rightbranch))
+			{
+				instance_destroy(obj_rightbranch)
+			}
+			if (instance_exists(obj_leftbranch))
+			{
+				instance_destroy(obj_leftbranch)
+			}
 		}
+		
 		
 	
 	}
