@@ -5,6 +5,7 @@ if (global.clickable and global.money >= tower.cost / 2) {
 	tower.can_shoot = false;
 	clicked = true;
 	global.money -= tower.cost / 2;
+	global.money_spent += tower.cost / 2;
 	tower.x = -100;
 	tower.y = -100;
 	tower.invalid_spot.x = -100;
