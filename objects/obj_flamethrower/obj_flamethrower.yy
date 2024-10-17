@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_flamethrower",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_flamethrower",
   "overriddenProperties":[
@@ -9,6 +11,9 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_guntower","path":"objects/obj_guntower/obj_guntower.yy",},"propertyId":{"name":"cost","path":"objects/obj_guntower/obj_guntower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"125",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_guntower","path":"objects/obj_guntower/obj_guntower.yy",},"propertyId":{"name":"tower_range","path":"objects/obj_guntower/obj_guntower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"75",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_guntower","path":"objects/obj_guntower/obj_guntower.yy",},"propertyId":{"name":"fire_speed","path":"objects/obj_guntower/obj_guntower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_guntower","path":"objects/obj_guntower/obj_guntower.yy",},"propertyId":{"name":"upgrade_cost_2","path":"objects/obj_guntower/obj_guntower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"150",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_guntower","path":"objects/obj_guntower/obj_guntower.yy",},"propertyId":{"name":"upgrade_cost_1","path":"objects/obj_guntower/obj_guntower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_guntower","path":"objects/obj_guntower/obj_guntower.yy",},"propertyId":{"name":"upgrade_cost_0","path":"objects/obj_guntower/obj_guntower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"75",},
   ],
   "parent":{
     "name":"tower",
@@ -31,7 +36,9 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"upgrade_flame","filters":[],"listItems":[],"multiselect":false,"name":"upgrade_flame","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

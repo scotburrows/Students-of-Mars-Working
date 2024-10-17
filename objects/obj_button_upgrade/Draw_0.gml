@@ -11,13 +11,13 @@ if (tower.object_index == obj_guntower)
 	switch (tower.upgrade_level)
 	{
 		case 0:
-		global.upgrade_cost = 50
+		global.upgrade_cost = tower.upgrade_cost_0
 		upgrade_info = "Increases the tower's damage. Cost: " + string(tower.upgrade_cost_0)
 		
 		break;
 		
 		case 1:
-		global.upgrade_cost = 75
+		global.upgrade_cost = tower.upgrade_cost_1
 		upgrade_info = "Increases the tower's range. Cost: " + string(tower.upgrade_cost_1)
 		break;
 		
@@ -33,14 +33,14 @@ else if (tower.object_index == obj_flamethrower)
 	switch (tower.upgrade_level)
 	{
 		case 0:
-		global.upgrade_cost = 50
+		global.upgrade_cost = tower.upgrade_cost_0
 		upgrade_info = "Increases the tower's range. Cost: " + string(tower.upgrade_cost_0)
 		
 		break;
 		
 		case 1:
-		global.upgrade_cost = 75
-		upgrade_info = "Increases the tower's range. Cost: " + string(tower.upgrade_cost_1)
+		global.upgrade_cost = tower.upgrade_cost_1
+		upgrade_info = "Increases the tower's damagr. Cost: " + string(tower.upgrade_cost_1)
 		break;
 		
 		case 2:
@@ -49,7 +49,50 @@ else if (tower.object_index == obj_flamethrower)
 		
 	}
 }
-
+else if (tower.object_index == obj_sniper)
+{
+	
+	switch (tower.upgrade_level)
+	{
+		case 0:
+		global.upgrade_cost = tower.upgrade_cost_0
+		upgrade_info = "Increases the tower's damage. Cost: " + string(tower.upgrade_cost_0)
+		
+		break;
+		
+		case 1:
+		global.upgrade_cost = tower.upgrade_cost_1
+		upgrade_info = "Increases the tower's fire rate. Cost: " + string(tower.upgrade_cost_1)
+		break;
+		
+		case 2:
+		instance_destroy()
+		break;
+		
+	}
+}
+else if (tower.object_index == obj_rockettower)
+{
+	
+	switch (tower.upgrade_level)
+	{
+		case 0:
+		global.upgrade_cost = tower.upgrade_cost_0
+		upgrade_info = "Increases the tower's range. Cost: " + string(tower.upgrade_cost_0)
+		
+		break;
+		
+		case 1:
+		global.upgrade_cost = tower.upgrade_cost_1
+		upgrade_info = "Increases the tower's damagr. Cost: " + string(tower.upgrade_cost_1)
+		break;
+		
+		case 2:
+		instance_destroy()
+		break;
+		
+	}
+}
 
 draw_text(x-150, y + 80, upgrade_info)
 

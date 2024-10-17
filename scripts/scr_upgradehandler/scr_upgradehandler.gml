@@ -23,10 +23,14 @@ function scr_upgradehandler(tower, upgrade_type){
 			case 2:
 			if (upgrade_type == "Left")
 			{
+				global.money -= tower.upgrade_cost_2
+			global.money_spent += tower.upgrade_cost_2
 				tower.upgrade_damage += 7.5
 			}
 			else 
 			{
+				global.money -= tower.upgrade_cost_2
+				global.money_spent += tower.upgrade_cost_2
 				tower.fire_speed /= 2
 			}
 			tower.upgrade_level ++
@@ -54,17 +58,90 @@ function scr_upgradehandler(tower, upgrade_type){
 			case 2:
 			if (upgrade_type == "Left")
 			{
-				tower.upgrade_damage += 7.5
+				global.money -= tower.upgrade_cost_2
+				global.money_spent += tower.upgrade_cost_2
+				tower.upgrade_damage += .3
 			}
 			else 
 			{
+				global.money -= tower.upgrade_cost_2
+				global.money_spent += tower.upgrade_cost_2
+				tower.upgrade_flame +=1
+			}
+			tower.upgrade_level ++
+			break;
+		}
+	}
+	else if (tower.object_index == obj_sniper)
+	{
+		switch (tower.upgrade_level)
+		{
+			case 0:
+			global.money -= tower.upgrade_cost_0
+			global.money_spent += tower.upgrade_cost_0
+			tower.upgrade_damage += 35 
+			tower.upgrade_level ++
+			break;
+		
+			case 1:
+			global.money -= tower.upgrade_cost_1
+			global.money_spent += tower.upgrade_cost_1
+			tower.fire_speed -= 10
+			tower.upgrade_level ++
+			break;
+			
+			case 2:
+			if (upgrade_type == "Left")
+			{
+				global.money -= tower.upgrade_cost_2
+				global.money_spent += tower.upgrade_cost_2
+				tower.upgrade_damage += 50
+			}
+			else 
+			{
+				global.money -= tower.upgrade_cost_2
+				global.money_spent += tower.upgrade_cost_2
 				tower.fire_speed /= 2
 			}
 			tower.upgrade_level ++
 			break;
 		}
 	}
+	else if (tower.object_index == obj_rockettower)
+	{
+		switch (tower.upgrade_level)
+		{
+			case 0:
+			global.money -= tower.upgrade_cost_0
+			global.money_spent += tower.upgrade_cost_0
+			tower.explosion_radius += 35 
+			tower.upgrade_level ++
+			break;
 		
+			case 1:
+			global.money -= tower.upgrade_cost_1
+			global.money_spent += tower.upgrade_cost_1
+			tower.upgrade_explosion_length += 25
+			tower.upgrade_level ++
+			break;
+			
+			case 2:
+			if (upgrade_type == "Left")
+			{
+				global.money -= tower.upgrade_cost_2
+				global.money_spent += tower.upgrade_cost_2
+				tower.upgrade_damage += .2
+			}
+			else 
+			{
+				global.money -= tower.upgrade_cost_2
+				global.money_spent += tower.upgrade_cost_2
+				tower.explosion_radius += 40
+			}
+			tower.upgrade_level ++
+			break;
+		}
+	}
 	
 	
 }
