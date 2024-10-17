@@ -43,8 +43,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tempalienking",
-    "path":"sprites/spr_tempalienking/spr_tempalienking.yy",
+    "name":"spr_king_down",
+    "path":"sprites/spr_king_down/spr_king_down.yy",
   },
   "spriteMaskId":null,
   "visible":true,

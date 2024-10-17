@@ -9,6 +9,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_guntower","path":"objects/obj_guntower/obj_guntower.yy",},"propertyId":{"name":"cost","path":"objects/obj_guntower/obj_guntower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"150",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_guntower","path":"objects/obj_guntower/obj_guntower.yy",},"propertyId":{"name":"tower_range","path":"objects/obj_guntower/obj_guntower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"225",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_guntower","path":"objects/obj_guntower/obj_guntower.yy",},"propertyId":{"name":"fire_speed","path":"objects/obj_guntower/obj_guntower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"120",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_guntower","path":"objects/obj_guntower/obj_guntower.yy",},"propertyId":{"name":"base_sprite","path":"objects/obj_guntower/obj_guntower.yy",},"resource":{"name":"spr_rocket_tower","path":"sprites/spr_rocket_tower/spr_rocket_tower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_rocket_tower",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_guntower","path":"objects/obj_guntower/obj_guntower.yy",},"propertyId":{"name":"shoot_sprite","path":"objects/obj_guntower/obj_guntower.yy",},"resource":{"name":"spr_rocket_tower_shoot","path":"sprites/spr_rocket_tower_shoot/spr_rocket_tower_shoot.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_rocket_tower_shoot",},
   ],
   "parent":{
     "name":"tower",
@@ -39,8 +41,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_temprockettower",
-    "path":"sprites/spr_temprockettower/spr_temprockettower.yy",
+    "name":"spr_rocket_tower",
+    "path":"sprites/spr_rocket_tower/spr_rocket_tower.yy",
   },
   "spriteMaskId":null,
   "visible":true,

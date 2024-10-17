@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_temprocket",
-    "path":"sprites/spr_temprocket/spr_temprocket.yy",
+    "name":"rocket",
+    "path":"sprites/rocket/rocket.yy",
   },
   "spriteMaskId":null,
   "visible":true,

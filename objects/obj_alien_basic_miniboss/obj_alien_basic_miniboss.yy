@@ -12,6 +12,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_alien_basic","path":"objects/obj_alien_basic/obj_alien_basic.yy",},"propertyId":{"name":"enemy_health","path":"objects/obj_alien_basic/obj_alien_basic.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"500",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_alien_basic","path":"objects/obj_alien_basic/obj_alien_basic.yy",},"propertyId":{"name":"money_get","path":"objects/obj_alien_basic/obj_alien_basic.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"250",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_alien_basic","path":"objects/obj_alien_basic/obj_alien_basic.yy",},"propertyId":{"name":"enemy_speed","path":"objects/obj_alien_basic/obj_alien_basic.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_alien_basic","path":"objects/obj_alien_basic/obj_alien_basic.yy",},"propertyId":{"name":"dead","path":"objects/obj_alien_basic/obj_alien_basic.yy",},"resource":{"name":"obj_miniboss_death","path":"objects/obj_miniboss_death/obj_miniboss_death.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_miniboss_death",},
   ],
   "parent":{
     "name":"enemy",

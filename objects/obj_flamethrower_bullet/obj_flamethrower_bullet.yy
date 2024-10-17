@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tempfire",
-    "path":"sprites/spr_tempfire/spr_tempfire.yy",
+    "name":"fire_bullet",
+    "path":"sprites/fire_bullet/fire_bullet.yy",
   },
   "spriteMaskId":null,
   "visible":true,

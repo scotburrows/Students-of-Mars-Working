@@ -14,6 +14,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_guntower","path":"objects/obj_guntower/obj_guntower.yy",},"propertyId":{"name":"upgrade_cost_2","path":"objects/obj_guntower/obj_guntower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"150",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_guntower","path":"objects/obj_guntower/obj_guntower.yy",},"propertyId":{"name":"upgrade_cost_1","path":"objects/obj_guntower/obj_guntower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"100",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_guntower","path":"objects/obj_guntower/obj_guntower.yy",},"propertyId":{"name":"upgrade_cost_0","path":"objects/obj_guntower/obj_guntower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"75",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_guntower","path":"objects/obj_guntower/obj_guntower.yy",},"propertyId":{"name":"base_sprite","path":"objects/obj_guntower/obj_guntower.yy",},"resource":{"name":"spr_fire_tower","path":"sprites/spr_fire_tower/spr_fire_tower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_fire_tower",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_guntower","path":"objects/obj_guntower/obj_guntower.yy",},"propertyId":{"name":"shoot_sprite","path":"objects/obj_guntower/obj_guntower.yy",},"resource":{"name":"spr_fire_tower_shoot","path":"sprites/spr_fire_tower_shoot/spr_fire_tower_shoot.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_fire_tower_shoot",},
   ],
   "parent":{
     "name":"tower",
@@ -43,8 +45,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tempfireguy",
-    "path":"sprites/spr_tempfireguy/spr_tempfireguy.yy",
+    "name":"spr_fire_tower",
+    "path":"sprites/spr_fire_tower/spr_fire_tower.yy",
   },
   "spriteMaskId":null,
   "visible":true,

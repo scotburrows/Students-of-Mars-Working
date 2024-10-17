@@ -46,8 +46,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tempalien4a",
-    "path":"sprites/spr_tempalien4a/spr_tempalien4a.yy",
+    "name":"spr_shell_down",
+    "path":"sprites/spr_shell_down/spr_shell_down.yy",
   },
   "spriteMaskId":null,
   "visible":true,

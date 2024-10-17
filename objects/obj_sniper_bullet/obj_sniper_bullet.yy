@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tempbullet",
-    "path":"sprites/spr_tempbullet/spr_tempbullet.yy",
+    "name":"sniper_bullet",
+    "path":"sprites/sniper_bullet/sniper_bullet.yy",
   },
   "spriteMaskId":null,
   "visible":true,

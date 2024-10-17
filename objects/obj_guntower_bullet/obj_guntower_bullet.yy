@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tempbullet",
-    "path":"sprites/spr_tempbullet/spr_tempbullet.yy",
+    "name":"normal_bullet",
+    "path":"sprites/normal_bullet/normal_bullet.yy",
   },
   "spriteMaskId":null,
   "visible":true,

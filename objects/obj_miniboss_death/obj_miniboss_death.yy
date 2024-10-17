@@ -32,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_basic_down",
+    "path":"sprites/spr_basic_down/spr_basic_down.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

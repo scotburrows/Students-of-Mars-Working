@@ -40,8 +40,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tempalien3",
-    "path":"sprites/spr_tempalien3/spr_tempalien3.yy",
+    "name":"spr_tank_down",
+    "path":"sprites/spr_tank_down/spr_tank_down.yy",
   },
   "spriteMaskId":null,
   "visible":true,
