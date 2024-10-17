@@ -10,8 +10,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_basic_dead","path":"objects/obj_basic_dead/obj_basic_dead.yy",},"propertyId":{"name":"down_dead","path":"objects/obj_basic_dead/obj_basic_dead.yy",},"resource":{"name":"spr_tank_down_dead","path":"sprites/spr_tank_down_dead/spr_tank_down_dead.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_tank_down_dead",},
   ],
   "parent":{
-    "name":"enemy_deaths",
-    "path":"folders/Objects/enemy_deaths.yy",
+    "name":"death",
+    "path":"folders/Objects/enemy/death.yy",
   },
   "parentObjectId":{
     "name":"obj_basic_dead",

@@ -1,4 +1,4 @@
-/// @description Direction handler
+/// @description Direction + size
 // You can write your code in this editor
 if (direction = 90){
 	sprite_index = up;
@@ -6,7 +6,7 @@ if (direction = 90){
 
 if (direction = 180){
 	sprite_index = left;
-	image_xscale = 1;
+	image_xscale = 2;
 }
 
 if (direction = 270){
@@ -15,5 +15,5 @@ if (direction = 270){
 
 if (direction = 0){
 	sprite_index = left;
-	image_xscale = -1;
+	image_xscale = -2;
 }

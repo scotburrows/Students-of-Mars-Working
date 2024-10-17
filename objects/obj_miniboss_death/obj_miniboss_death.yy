@@ -8,8 +8,8 @@
   "name":"obj_miniboss_death",
   "overriddenProperties":[],
   "parent":{
-    "name":"enemy_deaths",
-    "path":"folders/Objects/enemy_deaths.yy",
+    "name":"death",
+    "path":"folders/Objects/enemy/death.yy",
   },
   "parentObjectId":{
     "name":"obj_basic_dead",

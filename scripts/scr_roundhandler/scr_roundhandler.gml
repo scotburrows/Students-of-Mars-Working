@@ -13,12 +13,12 @@ function scr_roundhandler(){
 		global.current_round = [[obj_alien_fast, 4, 120], [obj_alien_basic, 2, 30]]
 		break;
 		
-		case 3:
-		global.current_round = [[obj_alien_tank, 1, 30], [obj_alien_fast, 3, 60]]
+		case 3: // empty
+		global.current_round = [[noone, 1, 1]]
 		break;
 		
-		case 4: // empty
-		global.current_round = [[noone, 1, 1]]
+		case 4:
+		global.current_round = [[obj_alien_tank, 1, 30], [obj_alien_fast, 3, 60], [obj_alien_tank, 1, 60]]
 		break;
 		
 		case 5:
@@ -46,9 +46,13 @@ function scr_roundhandler(){
 		global.current_round = [[obj_alien_king, 1, 10], [noone, 1, 600], [obj_alien_basic, 5, 45], [noone, 1, 600], [obj_alien_fast, 5, 45], [noone, 1, 600], [obj_alien_tank, 5, 45]]
 		break;
 		
-		case 0:
-		global.current_round = [[obj_alien_tank, 99, 30]]
+		default:
+		global.current_round = [[noone, 1, 1]]
 		break;
+		
+		//case 0:
+		//global.current_round = [[obj_alien_tank, 99, 30]]
+		//break;
 	}
 	
 }

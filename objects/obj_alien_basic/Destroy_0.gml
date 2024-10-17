@@ -3,7 +3,7 @@
 if (killed) {
 	instance_create_layer(x, y, "Instances", dead,
 	{
-		direction : obj_alien_basic.direction
+		direction : id.direction
 	});
 	global.money += money_get;
 	global.enemies_defeated++;

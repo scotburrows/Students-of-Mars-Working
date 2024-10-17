@@ -9,8 +9,8 @@
   "name":"obj_basic_dead",
   "overriddenProperties":[],
   "parent":{
-    "name":"enemy_deaths",
-    "path":"folders/Objects/enemy_deaths.yy",
+    "name":"death",
+    "path":"folders/Objects/enemy/death.yy",
   },
   "parentObjectId":null,
   "persistent":false,

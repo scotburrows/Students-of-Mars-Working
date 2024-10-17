@@ -1,7 +1,10 @@
 {
   "$GMObject":"",
   "%Name":"obj_king_dead",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_king_dead",
   "overriddenProperties":[
@@ -10,8 +13,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_basic_dead","path":"objects/obj_basic_dead/obj_basic_dead.yy",},"propertyId":{"name":"down_dead","path":"objects/obj_basic_dead/obj_basic_dead.yy",},"resource":{"name":"spr_king_down_dead","path":"sprites/spr_king_down_dead/spr_king_down_dead.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_king_down_dead",},
   ],
   "parent":{
-    "name":"enemy_deaths",
-    "path":"folders/Objects/enemy_deaths.yy",
+    "name":"death",
+    "path":"folders/Objects/enemy/death.yy",
   },
   "parentObjectId":{
     "name":"obj_basic_dead",
