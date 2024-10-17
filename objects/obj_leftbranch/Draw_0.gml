@@ -12,12 +12,12 @@ if (tower.object_index == obj_guntower)
 else if (tower.object_index == obj_flamethrower)
 {
 	draw_text(x-150, y + 80, "<- Increases the tower's damage. Cost: " + string(tower.upgrade_cost_2));
-	draw_text(x-150, y + 92, "-> Increases the tower's fire rate. Cost: " + string(tower.upgrade_cost_2));
+	draw_text(x-150, y + 92, "-> Increases the size of the flamethrower. Cost: " + string(tower.upgrade_cost_2));
 }
 else if (tower.object_index == obj_sniper)
 {
 	draw_text(x-150, y + 80, "<- Increases the tower's damage. Cost: " + string(tower.upgrade_cost_2));
-	draw_text(x-150, y + 92, "-> Increases the size of the flamethrower Cost: " + string(tower.upgrade_cost_2));
+	draw_text(x-150, y + 92, "-> Increases the  Cost: " + string(tower.upgrade_cost_2));
 }
 else if (tower.object_index == obj_rockettower)
 {

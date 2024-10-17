@@ -4,15 +4,15 @@ function scr_switchbar(has_data, display_data){
 	if (has_data) {
 		instance_destroy(obj_button_guntower);
 		instance_create_layer(1664, 496, "Bar", obj_button_refund).tower = display_data;
-		instance_create_layer(1664, 576, "Bar", obj_button_relocate).tower = display_data;
+		instance_create_layer(1664, 596, "Bar", obj_button_relocate).tower = display_data;
 		if (display_data.upgrade_level == 2)
 		{
-			instance_create_layer(1632, 656, "Bar", obj_leftbranch).tower = display_data;
-			instance_create_layer(1700, 656, "Bar", obj_rightbranch).tower = display_data;
+			instance_create_layer(1632, 676, "Bar", obj_leftbranch).tower = display_data;
+			instance_create_layer(1700, 676, "Bar", obj_rightbranch).tower = display_data;
 		}
 		else if (display_data.upgrade_level < 2 && !instance_exists(obj_button_upgrade))
 		{
-				instance_create_layer(1640, 656, "Bar", obj_button_upgrade).tower = display_data;
+				instance_create_layer(1640, 676, "Bar", obj_button_upgrade).tower = display_data;
 		}
 		else
 		{
@@ -25,7 +25,10 @@ function scr_switchbar(has_data, display_data){
 				instance_destroy(obj_leftbranch)
 			}
 		}
-		
+		if (display_data.upgrade_level == 3)
+		{
+			instance_create_layer(1600, 676, "Bar", obj_maxmessage);
+		}
 		
 	
 	}
@@ -41,6 +44,10 @@ function scr_switchbar(has_data, display_data){
 		{
 			instance_destroy(obj_leftbranch)
 		}
+		if (instance_exists(obj_maxmessage))
+		{
+			instance_destroy(obj_maxmessage)
+		}	
 		instance_create_layer(1502, 416, "Bar", obj_button_guntower);
 		instance_create_layer(1502, 496, "Bar", obj_button_flamethrower);
 		instance_create_layer(1502, 576, "Bar", obj_button_sniper);

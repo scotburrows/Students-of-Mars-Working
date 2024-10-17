@@ -9,6 +9,7 @@ function scr_upgradehandler(tower, upgrade_type){
 			case 0:
 			global.money -= tower.upgrade_cost_0
 			global.money_spent += tower.upgrade_cost_0
+			tower.cost += tower.upgrade_cost_0
 			tower.upgrade_damage += 5
 			tower.upgrade_level ++
 			break;
@@ -16,6 +17,7 @@ function scr_upgradehandler(tower, upgrade_type){
 			case 1:
 			global.money -= tower.upgrade_cost_1
 			global.money_spent += tower.upgrade_cost_1
+			tower.cost += tower.upgrade_cost_1
 			tower.tower_range += 50
 			tower.upgrade_level ++
 			break;
@@ -24,13 +26,15 @@ function scr_upgradehandler(tower, upgrade_type){
 			if (upgrade_type == "Left")
 			{
 				global.money -= tower.upgrade_cost_2
-			global.money_spent += tower.upgrade_cost_2
+				global.money_spent += tower.upgrade_cost_2
+				tower.cost += tower.upgrade_cost_2
 				tower.upgrade_damage += 7.5
 			}
 			else 
 			{
 				global.money -= tower.upgrade_cost_2
 				global.money_spent += tower.upgrade_cost_2
+				tower.cost += tower.upgrade_cost_2
 				tower.fire_speed /= 2
 			}
 			tower.upgrade_level ++
@@ -44,6 +48,7 @@ function scr_upgradehandler(tower, upgrade_type){
 			case 0:
 			global.money -= tower.upgrade_cost_0
 			global.money_spent += tower.upgrade_cost_0
+			tower.cost += tower.upgrade_cost_0
 			tower.tower_range += 35 
 			tower.upgrade_level ++
 			break;
@@ -51,6 +56,7 @@ function scr_upgradehandler(tower, upgrade_type){
 			case 1:
 			global.money -= tower.upgrade_cost_1
 			global.money_spent += tower.upgrade_cost_1
+			tower.cost += tower.upgrade_cost_1
 			tower.upgrade_damage += .25
 			tower.upgrade_level ++
 			break;
@@ -60,13 +66,15 @@ function scr_upgradehandler(tower, upgrade_type){
 			{
 				global.money -= tower.upgrade_cost_2
 				global.money_spent += tower.upgrade_cost_2
+				tower.cost += tower.upgrade_cost_2
 				tower.upgrade_damage += .3
 			}
 			else 
 			{
 				global.money -= tower.upgrade_cost_2
 				global.money_spent += tower.upgrade_cost_2
-				tower.upgrade_flame +=1
+				tower.cost += tower.upgrade_cost_2
+				tower.upgrade_flame += 1
 			}
 			tower.upgrade_level ++
 			break;
@@ -79,6 +87,7 @@ function scr_upgradehandler(tower, upgrade_type){
 			case 0:
 			global.money -= tower.upgrade_cost_0
 			global.money_spent += tower.upgrade_cost_0
+			tower.cost += tower.upgrade_cost_0
 			tower.upgrade_damage += 35 
 			tower.upgrade_level ++
 			break;
@@ -86,6 +95,7 @@ function scr_upgradehandler(tower, upgrade_type){
 			case 1:
 			global.money -= tower.upgrade_cost_1
 			global.money_spent += tower.upgrade_cost_1
+			tower.cost += tower.upgrade_cost_1
 			tower.fire_speed -= 10
 			tower.upgrade_level ++
 			break;
@@ -95,12 +105,14 @@ function scr_upgradehandler(tower, upgrade_type){
 			{
 				global.money -= tower.upgrade_cost_2
 				global.money_spent += tower.upgrade_cost_2
+				tower.cost += tower.upgrade_cost_2
 				tower.upgrade_damage += 50
 			}
 			else 
 			{
 				global.money -= tower.upgrade_cost_2
 				global.money_spent += tower.upgrade_cost_2
+				tower.cost += tower.upgrade_cost_2
 				tower.fire_speed /= 2
 			}
 			tower.upgrade_level ++
@@ -114,14 +126,16 @@ function scr_upgradehandler(tower, upgrade_type){
 			case 0:
 			global.money -= tower.upgrade_cost_0
 			global.money_spent += tower.upgrade_cost_0
-			tower.explosion_radius += 35 
+			tower.cost += tower.upgrade_cost_0
+			tower.upgrade_explosion_area += 1
 			tower.upgrade_level ++
 			break;
 		
 			case 1:
 			global.money -= tower.upgrade_cost_1
 			global.money_spent += tower.upgrade_cost_1
-			tower.upgrade_explosion_length += 25
+			tower.cost += tower.upgrade_cost_1
+			tower.upgrade_explosion_length += 24
 			tower.upgrade_level ++
 			break;
 			
@@ -130,13 +144,15 @@ function scr_upgradehandler(tower, upgrade_type){
 			{
 				global.money -= tower.upgrade_cost_2
 				global.money_spent += tower.upgrade_cost_2
-				tower.upgrade_damage += .2
+				tower.cost += tower.upgrade_cost_2
+				tower.upgrade_damage += .5
 			}
 			else 
 			{
 				global.money -= tower.upgrade_cost_2
 				global.money_spent += tower.upgrade_cost_2
-				tower.explosion_radius += 40
+				tower.cost += tower.upgrade_cost_2
+				tower.upgrade_explosion_area += 2
 			}
 			tower.upgrade_level ++
 			break;
