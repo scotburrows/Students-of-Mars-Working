@@ -17,7 +17,9 @@ global.towers_placed = 0;
 global.enemies_defeated = 0;
 global.time_taken = 0;
 
-// move these later
+win_screen = false;
+win_alpha = 0;
+
 minutes = "0";
 seconds = "00";
 

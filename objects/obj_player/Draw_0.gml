@@ -9,9 +9,3 @@ draw_healthbar(1502, 48, 1890, 112, health, c_black, c_red, c_lime, 0, true, tru
 if (does_display_data and display_data != noone) {
 	draw_sprite(object_get_sprite(display_data.object_index), 0, 1664 + 32, 416 + 32);
 }
-
-// testing
-draw_text_transformed(1502, 700,"Money Spent: "+string(global.money_spent), 2, 2, 0)
-draw_text_transformed(1502, 750,"Towers Placed: "+string(global.towers_placed), 2, 2, 0)
-draw_text_transformed(1502, 800,"Enemies Defeated: "+string(global.enemies_defeated), 2, 2, 0)
-draw_text_transformed(1502, 850,"Time Taken: "+minutes+":"+seconds, 2, 2, 0)

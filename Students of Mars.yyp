@@ -37,7 +37,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.0.169",
+    "IDEVersion":"2024.6.2.162",
   },
   "name":"Students of Mars",
   "resources":[
@@ -84,6 +84,7 @@
     {"id":{"name":"rm_stage_select","path":"rooms/rm_stage_select/rm_stage_select.yy",},},
     {"id":{"name":"rm_title_old","path":"rooms/rm_title_old/rm_title_old.yy",},},
     {"id":{"name":"rm_title","path":"rooms/rm_title/rm_title.yy",},},
+    {"id":{"name":"rm_victory","path":"rooms/rm_victory/rm_victory.yy",},},
     {"id":{"name":"scr_roundhandler","path":"scripts/scr_roundhandler/scr_roundhandler.yy",},},
     {"id":{"name":"scr_switchbar","path":"scripts/scr_switchbar/scr_switchbar.yy",},},
     {"id":{"name":"scr_upgradehandler","path":"scripts/scr_upgradehandler/scr_upgradehandler.yy",},},
@@ -159,6 +160,7 @@
     {"roomId":{"name":"rm_stage_select","path":"rooms/rm_stage_select/rm_stage_select.yy",},},
     {"roomId":{"name":"rm_orange_desert","path":"rooms/rm_orange_desert/rm_orange_desert.yy",},},
     {"roomId":{"name":"rm_frozen_lakes","path":"rooms/rm_frozen_lakes/rm_frozen_lakes.yy",},},
+    {"roomId":{"name":"rm_victory","path":"rooms/rm_victory/rm_victory.yy",},},
     {"roomId":{"name":"rm_title_old","path":"rooms/rm_title_old/rm_title_old.yy",},},
     {"roomId":{"name":"rm_map1_old","path":"rooms/rm_map1_old/rm_map1_old.yy",},},
     {"roomId":{"name":"rm_map2_old","path":"rooms/rm_map2_old/rm_map2_old.yy",},},
