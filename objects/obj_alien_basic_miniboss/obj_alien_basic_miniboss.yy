@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tempalien",
-    "path":"sprites/spr_tempalien/spr_tempalien.yy",
+    "name":"spr_basic_down",
+    "path":"sprites/spr_basic_down/spr_basic_down.yy",
   },
   "spriteMaskId":null,
   "visible":true,

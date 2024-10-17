@@ -15,7 +15,6 @@ if (current_hp <= 0) {
 
 if (current_hp <= enemy_health / 2) {
 	has_shell = false;
-	sprite_index = spr_tempalien4b;
 	path_speed = enemy_speed * 2;
 	damage /= 2;
 }

@@ -1,6 +1,10 @@
 /// @description Gives money
 // You can write your code in this editor
 if (killed) {
+	instance_create_layer(x, y, "Instances", dead,
+	{
+		direction : obj_alien_basic.direction
+	});
 	global.money += money_get;
 	global.enemies_defeated++;
 }

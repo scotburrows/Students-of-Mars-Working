@@ -9,6 +9,10 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_alien_basic","path":"objects/obj_alien_basic/obj_alien_basic.yy",},"propertyId":{"name":"enemy_health","path":"objects/obj_alien_basic/obj_alien_basic.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_alien_basic","path":"objects/obj_alien_basic/obj_alien_basic.yy",},"propertyId":{"name":"money_get","path":"objects/obj_alien_basic/obj_alien_basic.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_alien_basic","path":"objects/obj_alien_basic/obj_alien_basic.yy",},"propertyId":{"name":"damage","path":"objects/obj_alien_basic/obj_alien_basic.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"15",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_alien_basic","path":"objects/obj_alien_basic/obj_alien_basic.yy",},"propertyId":{"name":"down","path":"objects/obj_alien_basic/obj_alien_basic.yy",},"resource":{"name":"spr_fast_down","path":"sprites/spr_fast_down/spr_fast_down.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_fast_down",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_alien_basic","path":"objects/obj_alien_basic/obj_alien_basic.yy",},"propertyId":{"name":"left","path":"objects/obj_alien_basic/obj_alien_basic.yy",},"resource":{"name":"spr_fast_left","path":"sprites/spr_fast_left/spr_fast_left.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_fast_left",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_alien_basic","path":"objects/obj_alien_basic/obj_alien_basic.yy",},"propertyId":{"name":"up","path":"objects/obj_alien_basic/obj_alien_basic.yy",},"resource":{"name":"spr_fast_up","path":"sprites/spr_fast_up/spr_fast_up.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_fast_up",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_alien_basic","path":"objects/obj_alien_basic/obj_alien_basic.yy",},"propertyId":{"name":"dead","path":"objects/obj_alien_basic/obj_alien_basic.yy",},"resource":{"name":"obj_fast_dead","path":"objects/obj_fast_dead/obj_fast_dead.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_fast_dead",},
   ],
   "parent":{
     "name":"enemy",
@@ -36,8 +40,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tempalien2",
-    "path":"sprites/spr_tempalien2/spr_tempalien2.yy",
+    "name":"spr_fast_down",
+    "path":"sprites/spr_fast_down/spr_fast_down.yy",
   },
   "spriteMaskId":null,
   "visible":true,
