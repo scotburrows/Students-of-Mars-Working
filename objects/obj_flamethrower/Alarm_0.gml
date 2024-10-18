@@ -6,5 +6,6 @@ if (can_shoot and distance_to_object(instance_nearest(x, y, obj_alien_basic)) < 
 	var bullet = instance_create_layer(x, y, "Instances", bullet_type);
 	bullet.damage += upgrade_damage
 	bullet.image_yscale = image_yscale * upgrade_flame
+	bullet.flame_life = (tower_range / bullet.bullet_speed) - 50
 }
 alarm_set(0, fire_speed);
