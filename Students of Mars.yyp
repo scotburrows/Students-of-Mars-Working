@@ -47,7 +47,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.8.0.169",
   },
   "name":"Students of Mars",
   "resources":[
@@ -73,6 +73,7 @@
     {"id":{"name":"obj_button_upgrade","path":"objects/obj_button_upgrade/obj_button_upgrade.yy",},},
     {"id":{"name":"obj_cheats","path":"objects/obj_cheats/obj_cheats.yy",},},
     {"id":{"name":"obj_fast_dead","path":"objects/obj_fast_dead/obj_fast_dead.yy",},},
+    {"id":{"name":"obj_flamethrower_bullet_long","path":"objects/obj_flamethrower_bullet_long/obj_flamethrower_bullet_long.yy",},},
     {"id":{"name":"obj_flamethrower_bullet","path":"objects/obj_flamethrower_bullet/obj_flamethrower_bullet.yy",},},
     {"id":{"name":"obj_flamethrower","path":"objects/obj_flamethrower/obj_flamethrower.yy",},},
     {"id":{"name":"obj_guntower_bullet","path":"objects/obj_guntower_bullet/obj_guntower_bullet.yy",},},

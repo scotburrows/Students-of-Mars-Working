@@ -50,6 +50,7 @@
     {"name":"obj_button_upgrade","order":10,"path":"objects/obj_button_upgrade/obj_button_upgrade.yy",},
     {"name":"obj_cheats","order":2,"path":"objects/obj_cheats/obj_cheats.yy",},
     {"name":"obj_fast_dead","order":1,"path":"objects/obj_fast_dead/obj_fast_dead.yy",},
+    {"name":"obj_flamethrower_bullet_long","order":5,"path":"objects/obj_flamethrower_bullet_long/obj_flamethrower_bullet_long.yy",},
     {"name":"obj_flamethrower_bullet","order":1,"path":"objects/obj_flamethrower_bullet/obj_flamethrower_bullet.yy",},
     {"name":"obj_flamethrower","order":2,"path":"objects/obj_flamethrower/obj_flamethrower.yy",},
     {"name":"obj_invalid_place","order":3,"path":"objects/obj_invalid_place/obj_invalid_place.yy",},

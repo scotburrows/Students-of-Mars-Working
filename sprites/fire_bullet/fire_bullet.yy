@@ -26,7 +26,7 @@
   ],
   "name":"fire_bullet",
   "nineSlice":null,
-  "origin":3,
+  "origin":4,
   "parent":{
     "name":"bullets",
     "path":"folders/Sprites/bullets.yy",
@@ -87,7 +87,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":32,
     "yorigin":16,
   },
   "swatchColours":null,

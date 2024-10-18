@@ -10,4 +10,4 @@ if (instance_exists(obj_alien_basic)) {
 base_direction = point_direction(x, y, target.x, target.y) + random_angle;
 direction = base_direction;
 image_angle = direction;
-alarm_set(0, 15)
+alarm_set(0, 25)

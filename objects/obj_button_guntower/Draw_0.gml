@@ -7,7 +7,7 @@ if (!clicked) {
 }
 draw_set_color(c_black)
 draw_text_transformed(x + 15, y+132, string(tower.tower_name), 0.3, 0.3, 1);
-draw_text_transformed(x, y+156, " Cost:  " + string(tower.cost), 0.3, 0.3, 1);
+draw_text_transformed(x, y+156, " Cost:  " + string(tower.base_cost), 0.3, 0.3, 1);
 if (clicked) {
 	if (collision_circle(mouse_x, mouse_y, 1, obj_invalid_place, true, true)) {
 		draw_set_alpha(0.3);

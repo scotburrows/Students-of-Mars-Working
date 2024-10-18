@@ -49,7 +49,8 @@ function scr_upgradehandler(tower, upgrade_type){
 			global.money -= tower.upgrade_cost_0
 			global.money_spent += tower.upgrade_cost_0
 			tower.cost += tower.upgrade_cost_0
-			tower.tower_range += 35 
+			tower.tower_range += 35
+			tower.shoot_type_long = true
 			tower.upgrade_level ++
 			break;
 		
@@ -57,7 +58,7 @@ function scr_upgradehandler(tower, upgrade_type){
 			global.money -= tower.upgrade_cost_1
 			global.money_spent += tower.upgrade_cost_1
 			tower.cost += tower.upgrade_cost_1
-			tower.upgrade_damage += .25
+			tower.upgrade_damage += .15
 			tower.upgrade_level ++
 			break;
 			
@@ -67,7 +68,7 @@ function scr_upgradehandler(tower, upgrade_type){
 				global.money -= tower.upgrade_cost_2
 				global.money_spent += tower.upgrade_cost_2
 				tower.cost += tower.upgrade_cost_2
-				tower.upgrade_damage += .3
+				tower.upgrade_damage += .20
 			}
 			else 
 			{
@@ -127,7 +128,7 @@ function scr_upgradehandler(tower, upgrade_type){
 			global.money -= tower.upgrade_cost_0
 			global.money_spent += tower.upgrade_cost_0
 			tower.cost += tower.upgrade_cost_0
-			tower.upgrade_explosion_area += 1
+			tower.upgrade_damage += .25
 			tower.upgrade_level ++
 			break;
 		
@@ -135,7 +136,7 @@ function scr_upgradehandler(tower, upgrade_type){
 			global.money -= tower.upgrade_cost_1
 			global.money_spent += tower.upgrade_cost_1
 			tower.cost += tower.upgrade_cost_1
-			tower.upgrade_explosion_length += 24
+			tower.tower_range += 35
 			tower.upgrade_level ++
 			break;
 			
@@ -152,7 +153,7 @@ function scr_upgradehandler(tower, upgrade_type){
 				global.money -= tower.upgrade_cost_2
 				global.money_spent += tower.upgrade_cost_2
 				tower.cost += tower.upgrade_cost_2
-				tower.upgrade_explosion_area += 2
+				tower.fire_speed /= 2
 			}
 			tower.upgrade_level ++
 			break;

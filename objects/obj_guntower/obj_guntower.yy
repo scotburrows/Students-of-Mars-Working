@@ -48,6 +48,7 @@
     {"$GMObjectProperty":"v1","%Name":"tower_name","filters":[],"listItems":[],"multiselect":false,"name":"tower_name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Guntower","varType":2,},
     {"$GMObjectProperty":"v1","%Name":"base_damage","filters":[],"listItems":[],"multiselect":false,"name":"base_damage","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"damage_multiplier","filters":[],"listItems":[],"multiselect":false,"name":"damage_multiplier","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"base_cost","filters":[],"listItems":[],"multiselect":false,"name":"base_cost","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"50","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

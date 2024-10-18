@@ -78,12 +78,12 @@ else if (tower.object_index == obj_rockettower)
 	{
 		case 0:
 		global.upgrade_cost = tower.upgrade_cost_0
-		upgrade_info = "Increases the tower's range. Cost: " + string(tower.upgrade_cost_0)
+		upgrade_info = "Increases the tower's damage. Cost: " + string(tower.upgrade_cost_0)
 		break;
 		
 		case 1:
 		global.upgrade_cost = tower.upgrade_cost_1
-		upgrade_info = "Increases the tower's damage. Cost: " + string(tower.upgrade_cost_1)
+		upgrade_info = "Increases the tower's range. Cost: " + string(tower.upgrade_cost_1)
 		break;
 		
 		case 2:
