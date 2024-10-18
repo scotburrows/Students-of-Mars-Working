@@ -33,7 +33,7 @@
   "origin":7,
   "parent":{
     "name":"basic_enemy",
-    "path":"folders/Sprites/basic_enemy.yy",
+    "path":"folders/Sprites/enemy/basic_enemy.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

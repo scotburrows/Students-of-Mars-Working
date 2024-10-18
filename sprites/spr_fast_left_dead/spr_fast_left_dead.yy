@@ -39,7 +39,7 @@
   "origin":7,
   "parent":{
     "name":"fast_enemy",
-    "path":"folders/Sprites/fast_enemy.yy",
+    "path":"folders/Sprites/enemy/fast_enemy.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

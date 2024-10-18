@@ -3,7 +3,7 @@
 if (global.clickable and !clicked) {
 	clicked = true;
 	obj_player.does_display_data = true;
-	if (obj_player.display_data != noone) {
+	if (obj_player.display_data != noone and obj_player.display_data != id) {
 		obj_player.display_data.clicked = false;
 	}
 	obj_player.display_data = id;

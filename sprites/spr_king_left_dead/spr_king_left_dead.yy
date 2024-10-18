@@ -38,7 +38,7 @@
   "origin":7,
   "parent":{
     "name":"king_enemy",
-    "path":"folders/Sprites/king_enemy.yy",
+    "path":"folders/Sprites/enemy/king_enemy.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

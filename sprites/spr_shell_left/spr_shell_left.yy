@@ -33,7 +33,7 @@
   "origin":7,
   "parent":{
     "name":"shell_enemy",
-    "path":"folders/Sprites/shell_enemy.yy",
+    "path":"folders/Sprites/enemy/shell_enemy.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

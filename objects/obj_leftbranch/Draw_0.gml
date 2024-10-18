@@ -3,11 +3,11 @@
 draw_self()
 draw_set_color(#c4afaf);
 
-draw_text(x-150, y + 68, "Tower Level: " + string(tower.upgrade_level));
+draw_text_transformed(x-150, y + 68, "Tower Level: " + string(tower.upgrade_level), 0.2, 0.2, 1);
 if (tower.object_index == obj_guntower)
 {
-	draw_text(x-150, y + 80, "<- Increases the tower's damage. Cost: " + string(tower.upgrade_cost_2));
-	draw_text(x-150, y + 92, "-> Increases the tower's fire rate. Cost: " + string(tower.upgrade_cost_2));
+	draw_text_transformed(x-150, y + 80, "<- Increases the tower's damage. Cost: " + string(tower.upgrade_cost_2), 0.2, 0.2, 1);
+	draw_text_transformed(x-150, y + 92, "-> Increases the tower's fire rate. Cost: " + string(tower.upgrade_cost_2), 0.2, 0.2, 1);
 }
 else if (tower.object_index == obj_flamethrower)
 {

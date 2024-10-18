@@ -33,7 +33,7 @@
   "origin":7,
   "parent":{
     "name":"tank_enemy",
-    "path":"folders/Sprites/tank_enemy.yy",
+    "path":"folders/Sprites/enemy/tank_enemy.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
