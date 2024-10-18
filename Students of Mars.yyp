@@ -158,6 +158,7 @@
     {"id":{"name":"spr_logo","path":"sprites/spr_logo/spr_logo.yy",},},
     {"id":{"name":"spr_lone_ltree","path":"sprites/spr_lone_ltree/spr_lone_ltree.yy",},},
     {"id":{"name":"spr_lone_stree","path":"sprites/spr_lone_stree/spr_lone_stree.yy",},},
+    {"id":{"name":"spr_mapselect","path":"sprites/spr_mapselect/spr_mapselect.yy",},},
     {"id":{"name":"spr_ne_path","path":"sprites/spr_ne_path/spr_ne_path.yy",},},
     {"id":{"name":"spr_no_shell_down_dead","path":"sprites/spr_no_shell_down_dead/spr_no_shell_down_dead.yy",},},
     {"id":{"name":"spr_no_shell_down","path":"sprites/spr_no_shell_down/spr_no_shell_down.yy",},},

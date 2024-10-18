@@ -127,6 +127,7 @@
     {"name":"spr_logo","order":18,"path":"sprites/spr_logo/spr_logo.yy",},
     {"name":"spr_lone_ltree","order":24,"path":"sprites/spr_lone_ltree/spr_lone_ltree.yy",},
     {"name":"spr_lone_stree","order":23,"path":"sprites/spr_lone_stree/spr_lone_stree.yy",},
+    {"name":"spr_mapselect","order":57,"path":"sprites/spr_mapselect/spr_mapselect.yy",},
     {"name":"spr_ne_path","order":12,"path":"sprites/spr_ne_path/spr_ne_path.yy",},
     {"name":"spr_no_shell_down_dead","order":12,"path":"sprites/spr_no_shell_down_dead/spr_no_shell_down_dead.yy",},
     {"name":"spr_no_shell_down","order":10,"path":"sprites/spr_no_shell_down/spr_no_shell_down.yy",},
