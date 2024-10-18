@@ -10,3 +10,4 @@ if (random(2) < 1) {
 else {
 	global.path = false;
 }
+

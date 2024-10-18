@@ -1,10 +1,10 @@
 /// @description Breaks shell at 75% health
 // You can write your code in this editor
 if (has_shell) {
-	current_hp -= other.damage / 2;
+	current_hp -= other.blast_damage / 2;
 }
 else {
-	current_hp -= other.damage;
+	current_hp -= other.blast_damage;
 }
 
 if (current_hp <= 0) {
