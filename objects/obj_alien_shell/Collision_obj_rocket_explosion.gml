@@ -12,7 +12,7 @@ if (current_hp <= 0) {
 }
 
 
-if (current_hp <= enemy_health * 0.75) {
+if (current_hp <= enemy_health * 0.75 and has_shell) {
 	has_shell = false;
 	path_speed = enemy_speed * 2;
 	damage /= 2;
