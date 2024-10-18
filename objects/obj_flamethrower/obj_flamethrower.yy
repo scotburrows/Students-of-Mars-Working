@@ -16,6 +16,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_guntower","path":"objects/obj_guntower/obj_guntower.yy",},"propertyId":{"name":"upgrade_cost_0","path":"objects/obj_guntower/obj_guntower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"75",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_guntower","path":"objects/obj_guntower/obj_guntower.yy",},"propertyId":{"name":"base_sprite","path":"objects/obj_guntower/obj_guntower.yy",},"resource":{"name":"spr_fire_tower","path":"sprites/spr_fire_tower/spr_fire_tower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_fire_tower",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_guntower","path":"objects/obj_guntower/obj_guntower.yy",},"propertyId":{"name":"shoot_sprite","path":"objects/obj_guntower/obj_guntower.yy",},"resource":{"name":"spr_fire_tower_shoot","path":"sprites/spr_fire_tower_shoot/spr_fire_tower_shoot.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"spr_fire_tower_shoot",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_guntower","path":"objects/obj_guntower/obj_guntower.yy",},"propertyId":{"name":"tower_name","path":"objects/obj_guntower/obj_guntower.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Flamethrower",},
   ],
   "parent":{
     "name":"tower",

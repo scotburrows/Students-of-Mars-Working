@@ -45,6 +45,7 @@
     {"$GMObjectProperty":"v1","%Name":"upgrade_damage","filters":[],"listItems":[],"multiselect":false,"name":"upgrade_damage","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"base_sprite","filters":[],"listItems":[],"multiselect":false,"name":"base_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_gun_tower","path":"sprites/spr_gun_tower/spr_gun_tower.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_gun_tower","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"shoot_sprite","filters":[],"listItems":[],"multiselect":false,"name":"shoot_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"spr_gun_tower_shoot","path":"sprites/spr_gun_tower_shoot/spr_gun_tower_shoot.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"spr_gun_tower_shoot","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"tower_name","filters":[],"listItems":[],"multiselect":false,"name":"tower_name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Guntower","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
