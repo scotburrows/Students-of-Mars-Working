@@ -1,7 +1,8 @@
 /// @description Guntower under cursor
 // You can write your code in this editor
 draw_self();
-draw_sprite(object_get_sprite(tower.bullet_type), 0, x + 96, y + 64);
+draw_sprite(object_get_sprite(tower.bullet_type), 0, x + 76 - 32, y + 64);
+draw_sprite(object_get_sprite(tower.bullet_type), 0, x + 104 - 32, y + 64);
 if (!clicked) {
 	draw_sprite(object_get_sprite(tower), 0, x + 44, y + 64);
 }

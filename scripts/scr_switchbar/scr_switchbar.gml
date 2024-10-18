@@ -54,10 +54,10 @@ function scr_switchbar(has_data, display_data){
 		{
 			instance_destroy(obj_maxmessage)
 		}	
-		instance_create_layer(1502, 416, "Bar", obj_button_guntower);
-		instance_create_layer(1502, 496, "Bar", obj_button_flamethrower);
-		instance_create_layer(1502, 576, "Bar", obj_button_sniper);
-		instance_create_layer(1502, 656, "Bar", obj_button_rocket);
+		instance_create_layer(1524, 486, "Bar", obj_button_guntower);
+		instance_create_layer(1746, 486, "Bar", obj_button_flamethrower);
+		instance_create_layer(1524, 736, "Bar", obj_button_sniper);
+		instance_create_layer(1746, 736, "Bar", obj_button_rocket);
 		instance_create_layer(1568, 256, "Bar", obj_button_startround);
 	}
 }
