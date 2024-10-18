@@ -6,3 +6,4 @@ dummy_tower.can_shoot = false;
 
 image_xscale = 2;
 image_yscale = 4;
+hovering = false;

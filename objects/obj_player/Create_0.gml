@@ -25,4 +25,7 @@ overlay_alpha = 0;
 minutes = "0";
 seconds = "00";
 
+//font_replace_sprite()
+//font_add_sprite_ext(spr_invalid, "Z", true, 5);
+
 //camera_set_view_angle(view_camera[1], 20)

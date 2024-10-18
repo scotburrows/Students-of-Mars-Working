@@ -2,7 +2,7 @@
 // You can write your code in this editor
 draw_set_alpha(1);
 draw_set_color(c_white);
-draw_text_transformed(1502, 112,"Money:  "+string(global.money), 0.6, 0.6, 0)
+draw_text_transformed(1502, 112,"Money: $"+string(global.money), 0.6, 0.6, 0)
 draw_text_transformed(1502, 176, "Round #" + string(global.round_num), 0.6, 0.6, 0)
 draw_healthbar(1502, 48, 1890, 112, health, c_black, c_red, c_lime, 0, true, true);
 

@@ -36,7 +36,7 @@ if (win_screen) {
 	draw_text_transformed(1300, 600,"Final Statistics", 0.6, 0.6, 0);
 	draw_set_color(c_black);
 	draw_text_transformed(1300, 650,"Health Remaining: "+string(health)+"%", 0.6, 0.6, 0);
-	draw_text_transformed(1300, 700,"Money Spent: "+string(global.money_spent), 0.6, 0.6, 0);
+	draw_text_transformed(1300, 700,"Money Spent: $"+string(global.money_spent), 0.6, 0.6, 0);
 	draw_text_transformed(1300, 750,"Students Hired: "+string(global.towers_placed), 0.6, 0.6, 0);
 	draw_text_transformed(1300, 800,"Aliens Defeated: "+string(global.enemies_defeated), 0.6, 0.6, 0);
 	draw_text_transformed(1300, 850,"Time Taken: "+minutes+":"+seconds, 0.6, 0.6, 0);
