@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_tempmars",
-    "path":"sprites/spr_tempmars/spr_tempmars.yy",
+    "name":"spr_mars",
+    "path":"sprites/spr_mars/spr_mars.yy",
   },
   "spriteMaskId":null,
   "visible":true,
