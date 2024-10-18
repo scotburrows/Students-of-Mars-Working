@@ -9,3 +9,6 @@ else {
 	seconds = string(seconds_raw);
 }
 win_screen = true;
+
+//instance_create_layer(room_width / 2, 1176, "Instances", obj_alien_king, {image_xscale: 0.75, image_yscale: 0.75});
+//instance_create_layer(room_width / 6, 1176, "Instances", obj_alien_basic);

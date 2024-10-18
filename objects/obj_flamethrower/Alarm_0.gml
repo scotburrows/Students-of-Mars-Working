@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if (can_shoot and distance_to_object(instance_nearest(x, y, obj_alien_basic)) < tower_range) {
+if (distance_to_object(instance_nearest(x, y, obj_alien_basic)) < tower_range and can_shoot and !global.game_over and !global.game_won) {
 	image_angle = point_direction(x, y, instance_nearest(x, y, obj_alien_basic).x, instance_nearest(x, y, obj_alien_basic).y);
 	sprite_index = shoot_sprite;
 	if (range_type_long == false)

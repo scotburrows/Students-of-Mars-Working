@@ -1,5 +1,4 @@
-/// @description Not clicked
+/// @description Not hovering
 // You can write your code in this editor
-clicked = false;
 hovering = false;
 image_blend = c_black;

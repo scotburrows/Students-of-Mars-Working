@@ -9,8 +9,8 @@ function scr_switchbar(has_data, display_data){
 		instance_destroy(obj_leftbranch);
 		instance_destroy(obj_maxmessage);
 		instance_destroy(obj_button_guntower);
-		instance_create_layer(1664, 750, "Bar", obj_button_refund).tower = display_data;
-		instance_create_layer(1664, 850, "Bar", obj_button_relocate).tower = display_data;
+		instance_create_layer(1494, 760, "Bar", obj_button_refund).tower = display_data;
+		instance_create_layer(1494, 860, "Bar", obj_button_relocate).tower = display_data;
 		if (display_data.upgrade_level == 2)
 		{
 			instance_create_layer(1632, 950, "Bar", obj_leftbranch).tower = display_data;
