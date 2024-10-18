@@ -10,6 +10,8 @@ tension_alpha = 0;
 // sets bar default
 scr_switchbar(false, noone);
 
+global.game_over = false;
+
 // for end screen
 global.game_won = false;
 global.money_spent = 0;
@@ -18,7 +20,7 @@ global.enemies_defeated = 0;
 global.time_taken = 0;
 
 win_screen = false;
-win_alpha = 0;
+overlay_alpha = 0;
 
 minutes = "0";
 seconds = "00";

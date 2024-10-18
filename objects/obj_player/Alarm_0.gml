@@ -7,8 +7,4 @@ if (!global.game_won) {
 	global.time_taken++;
 }
 
-// move to game won event when created
-
-	
-
 alarm_set(0,room_speed);

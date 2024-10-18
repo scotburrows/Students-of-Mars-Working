@@ -107,6 +107,8 @@
     {"name":"spr_fast_up","order":1,"path":"sprites/spr_fast_up/spr_fast_up.yy",},
     {"name":"spr_fire_tower","order":4,"path":"sprites/spr_fire_tower/spr_fire_tower.yy",},
     {"name":"spr_fire","order":30,"path":"sprites/spr_fire/spr_fire.yy",},
+    {"name":"spr_gameover","order":55,"path":"sprites/spr_gameover/spr_gameover.yy",},
+    {"name":"spr_gamewin","order":56,"path":"sprites/spr_gamewin/spr_gamewin.yy",},
     {"name":"spr_green_crystal","order":52,"path":"sprites/spr_green_crystal/spr_green_crystal.yy",},
     {"name":"spr_gun_tower_shoot","order":1,"path":"sprites/spr_gun_tower_shoot/spr_gun_tower_shoot.yy",},
     {"name":"spr_gun_tower","order":5,"path":"sprites/spr_gun_tower/spr_gun_tower.yy",},
