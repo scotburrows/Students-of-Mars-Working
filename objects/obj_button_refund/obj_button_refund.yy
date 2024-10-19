@@ -38,8 +38,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_temptrash",
-    "path":"sprites/spr_temptrash/spr_temptrash.yy",
+    "name":"spr_trash",
+    "path":"sprites/spr_trash/spr_trash.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -4,4 +4,5 @@ if (!instance_exists(obj_spawner) and global.clickable) {
 	global.round_num++;
 	scr_roundhandler();
 	instance_create_layer(0,0,"Instances",obj_spawner)
+	audio_play_sound(snd_wave_start, 2, false);
 }

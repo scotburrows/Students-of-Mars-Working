@@ -7,6 +7,7 @@ if (killed) {
 	});
 	global.money += money_get;
 	global.enemies_defeated++;
+	audio_play_sound(snd_kill_enemy, 1, false)
 }
 
 // Restores health by 20 after round 5

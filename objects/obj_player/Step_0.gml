@@ -31,3 +31,12 @@ if (global.game_won and !alarm_get(1)) {
 		alarm_set(1, 120);
 	}
 }
+
+if ((tension_alpha == 1 or instance_exists( obj_alien_king))and !audio_is_playing(snd_intense_music)) {
+	audio_stop_all();
+	audio_play_sound(snd_intense_music, 1, true);
+}
+
+if  ((global.game_over or global.game_won) and audio_is_playing(snd_intense_music)){
+	audio_stop_sound(snd_intense_music);
+}

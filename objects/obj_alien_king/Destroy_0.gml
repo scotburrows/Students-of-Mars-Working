@@ -8,7 +8,8 @@ if (killed) {
 	global.money += money_get;
 	global.enemies_defeated++;
 }
-
+audio_stop_all();
+audio_play_sound(snd_victory, 2, false);
 instance_destroy(obj_alien_basic);
 instance_destroy(obj_spawner);
 //TBA

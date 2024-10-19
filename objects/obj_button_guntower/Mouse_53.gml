@@ -11,4 +11,5 @@ if (clicked && !position_meeting(mouse_x, mouse_y, obj_invalid_place)) {
 	global.towers_placed++;
 	clicked = false;
 	global.clickable = true;
+	audio_play_sound(snd_place_tower, 2, false);
 }

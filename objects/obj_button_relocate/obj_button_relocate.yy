@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_temparrows",
-    "path":"sprites/spr_temparrows/spr_temparrows.yy",
+    "name":"spr_arrows",
+    "path":"sprites/spr_arrows/spr_arrows.yy",
   },
   "spriteMaskId":null,
   "visible":true,
