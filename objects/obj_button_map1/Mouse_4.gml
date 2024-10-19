@@ -1,8 +1,9 @@
 /// @description Sets alarms
 // You can write your code in this editor
-if (!clicked) {
+if (!clicked and global.clickable) {
 	alpha = 0;
 	clicked = true;
+	global.clickable = false;
 	
 	// Inherit the parent event
 	event_inherited();
