@@ -38,7 +38,7 @@ function scr_roundhandler(){
 		break;
 		
 		case 9:
-		global.current_round = [[obj_alien_tank, 25, 30]]
+		global.current_round = [[obj_alien_tank, 16, 30]]
 		break;
 		
 		case 10:
