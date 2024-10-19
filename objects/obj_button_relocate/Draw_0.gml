@@ -8,7 +8,7 @@ for (var i = 0; i < 8; i++) {
 	draw_rectangle(x - 4 - i, y - 4 - i, x + 68 + i, y + 68 + i, true);
 }
 draw_set_color(c_white);
-if (global.money < tower.cost or clicked) {
+if (global.money < (tower.cost / 2) or clicked) {
 	draw_set_color(c_dkgray);
 	draw_set_alpha(0.35);
 	draw_rectangle(x - 12, y - 12, x + 76, y + 76, false);
@@ -19,7 +19,7 @@ else if (hovering and !clicked) {
 }
 draw_set_alpha(1);
 draw_set_valign(fa_middle);
-draw_text_transformed(x + 88, y + 32, "Move tower, Cost: $" + string(tower.cost / 2), 0.3, 0.3, 1);
+draw_text_transformed(x + 88, y + 32, "Move tower. Cost: $" + string(tower.cost / 2), 0.3, 0.3, 1);
 draw_set_valign(fa_top);
 if (clicked) {
 	if (collision_circle(mouse_x, mouse_y, 1, obj_invalid_place, true, true)) {
