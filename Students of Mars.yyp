@@ -47,7 +47,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.6.2.162",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"Students of Mars",
   "resources":[
@@ -107,6 +107,7 @@
     {"id":{"name":"scr_roundhandler","path":"scripts/scr_roundhandler/scr_roundhandler.yy",},},
     {"id":{"name":"scr_switchbar","path":"scripts/scr_switchbar/scr_switchbar.yy",},},
     {"id":{"name":"scr_upgradehandler","path":"scripts/scr_upgradehandler/scr_upgradehandler.yy",},},
+    {"id":{"name":"snd_congratulate","path":"sounds/snd_congratulate/snd_congratulate.yy",},},
     {"id":{"name":"snd_intense_music","path":"sounds/snd_intense_music/snd_intense_music.yy",},},
     {"id":{"name":"snd_kill_enemy","path":"sounds/snd_kill_enemy/snd_kill_enemy.yy",},},
     {"id":{"name":"snd_loss","path":"sounds/snd_loss/snd_loss.yy",},},
