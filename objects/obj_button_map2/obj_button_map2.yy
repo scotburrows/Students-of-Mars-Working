@@ -12,6 +12,7 @@
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_title","path":"objects/obj_button_title/obj_button_title.yy",},"propertyId":{"name":"selected_room","path":"objects/obj_button_title/obj_button_title.yy",},"resource":{"name":"rm_frozen_lakes","path":"rooms/rm_frozen_lakes/rm_frozen_lakes.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"rm_frozen_lakes",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_map1","path":"objects/obj_button_map1/obj_button_map1.yy",},"propertyId":{"name":"map_name","path":"objects/obj_button_map1/obj_button_map1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Frozen Lakes",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_button_map1","path":"objects/obj_button_map1/obj_button_map1.yy",},"propertyId":{"name":"text_color","path":"objects/obj_button_map1/obj_button_map1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"c_aqua",},
   ],
   "parent":{
     "name":"button",
