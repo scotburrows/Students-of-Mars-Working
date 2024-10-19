@@ -25,6 +25,8 @@ overlay_alpha = 0;
 minutes = "0";
 seconds = "00";
 
+played_audio = false;
+
 //font_replace_sprite()
 //font_add_sprite_ext(spr_invalid, "Z", true, 5);
 

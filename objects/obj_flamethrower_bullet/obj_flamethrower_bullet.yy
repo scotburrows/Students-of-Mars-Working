@@ -9,7 +9,7 @@
   "managed":true,
   "name":"obj_flamethrower_bullet",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_guntower_bullet","path":"objects/obj_guntower_bullet/obj_guntower_bullet.yy",},"propertyId":{"name":"damage","path":"objects/obj_guntower_bullet/obj_guntower_bullet.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":".075",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_guntower_bullet","path":"objects/obj_guntower_bullet/obj_guntower_bullet.yy",},"propertyId":{"name":"damage","path":"objects/obj_guntower_bullet/obj_guntower_bullet.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":".085",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_guntower_bullet","path":"objects/obj_guntower_bullet/obj_guntower_bullet.yy",},"propertyId":{"name":"bullet_speed","path":"objects/obj_guntower_bullet/obj_guntower_bullet.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"8",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_guntower_bullet","path":"objects/obj_guntower_bullet/obj_guntower_bullet.yy",},"propertyId":{"name":"random_offset","path":"objects/obj_guntower_bullet/obj_guntower_bullet.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_guntower_bullet","path":"objects/obj_guntower_bullet/obj_guntower_bullet.yy",},"propertyId":{"name":"adjust_angle","path":"objects/obj_guntower_bullet/obj_guntower_bullet.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},

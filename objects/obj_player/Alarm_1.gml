@@ -8,6 +8,10 @@ if (seconds_raw < 10) {
 else {
 	seconds = string(seconds_raw);
 }
+
+if (!win_screen) {
+	audio_play_sound(snd_congratulate, 1, false);
+}
 win_screen = true;
 
 //instance_create_layer(room_width / 2, 1176, "Instances", obj_alien_king, {image_xscale: 0.75, image_yscale: 0.75});

@@ -68,7 +68,7 @@ function scr_upgradehandler(tower, upgrade_type){
 				global.money -= tower.upgrade_cost_2
 				global.money_spent += tower.upgrade_cost_2
 				tower.cost += tower.upgrade_cost_2
-				tower.upgrade_damage += .20
+				tower.upgrade_damage += .15
 			}
 			else 
 			{
@@ -89,7 +89,7 @@ function scr_upgradehandler(tower, upgrade_type){
 			global.money -= tower.upgrade_cost_0
 			global.money_spent += tower.upgrade_cost_0
 			tower.cost += tower.upgrade_cost_0
-			tower.upgrade_damage += 35 
+			tower.upgrade_damage += 20 
 			tower.upgrade_level ++
 			break;
 		

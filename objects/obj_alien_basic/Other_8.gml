@@ -6,5 +6,6 @@ audio_play_sound(snd_take_damage, 2, false);
 if (health <= 0) {
 	global.clickable = false;
 	global.game_over = true;
+	audio_play_sound(snd_loss, 1, false);
 }
 instance_destroy();

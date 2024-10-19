@@ -13,4 +13,5 @@ if (killed) {
 // Restores health by 20 after round 5
 if (global.round_num == 5 and instance_number(obj_alien_basic) == 1) {
 	health += 20;
+	health = clamp(health, 0, 100);
 }

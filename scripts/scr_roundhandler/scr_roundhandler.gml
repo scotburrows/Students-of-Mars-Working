@@ -14,7 +14,7 @@ function scr_roundhandler(){
 		break;
 		
 		case 3:
-		global.current_round = [[obj_alien_basic, 10, 30], [obj_alien_fast, 6, 60], [obj_alien_basic, 6, 20], [obj_alien_fast, 4, 30]]
+		global.current_round = [[obj_alien_basic, 6, 30], [obj_alien_fast, 4, 60], [obj_alien_basic, 3, 20], [obj_alien_fast, 1, 30]]
 		break;
 		
 		case 4:
