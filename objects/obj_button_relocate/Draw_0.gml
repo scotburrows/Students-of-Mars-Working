@@ -1,6 +1,6 @@
-/// @description Guntower under cursor
+/// @description Button visuals, guntower under cursor
 // You can write your code in this editor
-draw_set_color(#E5E5E5);
+draw_set_color(#EAEAEA);
 draw_rectangle(x - 4, y - 4, x + 68, y + 68, false);
 draw_self();
 draw_set_color(c_black);

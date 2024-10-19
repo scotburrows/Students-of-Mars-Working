@@ -1,6 +1,6 @@
 /// @description Button visuals
 // You can write your code in this 
-draw_set_color(#E5E5E5);
+draw_set_color(#EAEAEA);
 draw_rectangle(x - 4, y - 4, x + 68, y + 68, false);
 draw_self();
 draw_set_color(c_black);
@@ -8,7 +8,12 @@ for (var i = 0; i < 8; i++) {
 	draw_rectangle(x - 4 - i, y - 4 - i, x + 68 + i, y + 68 + i, true);
 }
 draw_set_color(c_white);
-if (hovering) {
+if (!global.clickable) {
+	draw_set_color(c_dkgray);
+	draw_set_alpha(0.35);
+	draw_rectangle(x - 12, y - 12, x + 76, y + 76, false);
+}
+else if (hovering) {
 	draw_set_alpha(0.35);
 	draw_rectangle(x - 12, y - 12, x + 76, y + 76, false);
 }

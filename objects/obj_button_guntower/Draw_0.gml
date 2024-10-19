@@ -1,7 +1,7 @@
 /// @description Button view, guntower + range drag
 // You can write your code in this editor
 //draw_self();
-draw_set_color(#E5E5E5);
+draw_set_color(#EAEAEA);
 draw_rectangle(x, y, x + 128, y + 128, false);
 draw_sprite(object_get_sprite(tower.bullet_type), 0, x + 96, y + 64);
 if (!clicked) {
@@ -24,7 +24,7 @@ else if (hovering) {
 draw_set_alpha(1);
 draw_set_halign(fa_middle);
 draw_text_transformed(x + 64, y+132, string(tower.tower_name), 0.35, 0.35, 1);
-draw_text_transformed(x + 64, y+160, "Cost: " + "$" + string(tower.base_cost), 0.35, 0.35, 1);
+draw_text_transformed(x + 64, y+168, "Cost: " + "$" + string(tower.base_cost), 0.35, 0.35, 1);
 draw_set_halign(fa_left);
 if (clicked) {
 	if (collision_circle(mouse_x, mouse_y, 1, obj_invalid_place, true, true)) {
